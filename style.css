@@ -14,12 +14,20 @@ header {
   display: flex;
   gap: 10px;
   margin-top: 10px;
+  flex-wrap: wrap;
 }
 
-.controls input,
-.controls select {
-  padding: 8px;
-  font-size: 1rem;
+/* Stack controls vertically on mobile */
+@media (max-width: 799px) {
+  .controls {
+    flex-direction: column;
+    gap: 8px;
+  }
+  
+  .controls input,
+  .controls select {
+    width: 100%;
+  }
 }
 
 .tile-grid {
@@ -30,7 +38,7 @@ header {
 }
 
 /* Tablet portrait: 4 columns */
-@media (min-width: 768px) {
+@media (min-width: 800px) {
   .tile-grid {
     grid-template-columns: repeat(4, 1fr);
     gap: 14px;

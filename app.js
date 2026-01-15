@@ -86,13 +86,46 @@ function applyFilters() {
   const gen = document.getElementById("filter-generation").value;
   const resourceChain = document.getElementById("filter-resource-chain").value;
 
-  const filtered = allTiles.filter(tile => {
+  let filtered = allTiles.filter(tile => {
     if (search && !tile.name.toLowerCase().includes(search)) return false;
     if (type && !tile.type.includes(type)) return false;
     if (gen && tile.generation !== gen) return false;
     if (resourceChain && !isInResourceChain(tile, resourceChain)) return false;
     return true;
   });
+
+  // Sort by tile type when resource chain filter is active
+  if (resourceChain) {
+    const typeOrder = {
+      'Resource': 1,
+      'Industrial': 2,
+      'Residential': 3,
+      'Commercial': 4,
+      'Public': 5
+    };
+
+    const genOrder = {
+      'I': 1,
+      'II': 2,
+      'III': 3,
+      'C': 4
+    };
+
+    filtered = filtered.sort((a, b) => {
+      const aTypeOrder = typeOrder[a.type.split(' ')[0]] || 99;
+      const bTypeOrder = typeOrder[b.type.split(' ')[0]] || 99;
+      
+      // First sort by tile type
+      if (aTypeOrder !== bTypeOrder) {
+        return aTypeOrder - bTypeOrder;
+      }
+      
+      // Then sort by generation within the same type
+      const aGenOrder = genOrder[a.generation] || 99;
+      const bGenOrder = genOrder[b.generation] || 99;
+      return aGenOrder - bGenOrder;
+    });
+  }
 
   renderTiles(filtered);
 }
@@ -102,7 +135,8 @@ function isInResourceChain(tile, chain) {
   const resourceChains = {
     // Raw resources
     stone: { type: 'raw', produces: ['Stone'], chain: ['Stone', 'Concrete', 'Glass', 'Jewelry'] },
-    gas: { type: 'raw', produces: ['Gas', 'Oil'], chain: ['Gas', 'Oil', 'Plastics', 'Sports Cars'] },
+    gas: { type: 'raw', produces: ['Gas'], chain: ['Gas', 'Plastics', 'Sports Cars'] },
+    oil: { type: 'raw', produces: ['Oil'], chain: ['Oil', 'Plastics', 'Sports Cars'] },
     ore: { type: 'raw', produces: ['Ore'], chain: ['Ore', 'Gold', 'Copper', 'Steel', 'Electronics', 'Jewelry'] },
     wood: { type: 'raw', produces: ['Wood'], chain: ['Wood', 'Lumber'] },
     coal: { type: 'raw', produces: ['Coal'], chain: ['Coal', 'Diamonds', 'Steel', 'Electronics', 'Jewelry'] },
