@@ -1,0 +1,2 @@
+# neom
+Neom strategy planner
