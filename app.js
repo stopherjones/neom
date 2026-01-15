@@ -84,20 +84,67 @@ function applyFilters() {
   const search = document.getElementById("search").value.toLowerCase();
   const type = document.getElementById("filter-type").value;
   const gen = document.getElementById("filter-generation").value;
+  const resourceChain = document.getElementById("filter-resource-chain").value;
 
   const filtered = allTiles.filter(tile => {
     if (search && !tile.name.toLowerCase().includes(search)) return false;
     if (type && !tile.type.includes(type)) return false;
     if (gen && tile.generation !== gen) return false;
+    if (resourceChain && !isInResourceChain(tile, resourceChain)) return false;
     return true;
   });
 
   renderTiles(filtered);
 }
 
+function isInResourceChain(tile, chain) {
+  // Define resource chains as production relationships
+  const resourceChains = {
+    // Raw resources
+    stone: { type: 'raw', produces: ['Stone'], chain: ['Stone', 'Concrete', 'Glass', 'Jewelry'] },
+    gas: { type: 'raw', produces: ['Gas', 'Oil'], chain: ['Gas', 'Oil', 'Plastics', 'Sports Cars'] },
+    ore: { type: 'raw', produces: ['Ore'], chain: ['Ore', 'Gold', 'Copper', 'Steel', 'Electronics', 'Jewelry'] },
+    wood: { type: 'raw', produces: ['Wood'], chain: ['Wood', 'Lumber'] },
+    coal: { type: 'raw', produces: ['Coal'], chain: ['Coal', 'Diamonds', 'Steel', 'Electronics', 'Jewelry'] },
+    
+    // Processed goods
+    concrete: { type: 'processed', produces: ['Concrete'], chain: ['Stone', 'Concrete'] },
+    glass: { type: 'processed', produces: ['Glass'], chain: ['Stone', 'Glass', 'Jewelry', 'Sports Cars'] },
+    plastics: { type: 'processed', produces: ['Plastics'], chain: ['Gas', 'Oil', 'Plastics', 'Sports Cars'] },
+    gold: { type: 'processed', produces: ['Gold'], chain: ['Ore', 'Gold', 'Jewelry'] },
+    copper: { type: 'processed', produces: ['Copper'], chain: ['Ore', 'Copper', 'Electronics'] },
+    lumber: { type: 'processed', produces: ['Lumber'], chain: ['Wood', 'Lumber'] },
+    diamonds: { type: 'processed', produces: ['Diamonds'], chain: ['Coal', 'Diamonds', 'Electronics', 'Jewelry'] },
+    steel: { type: 'processed', produces: ['Steel'], chain: ['Coal', 'Ore', 'Steel', 'Electronics', 'Sports Cars'] },
+    
+    // Luxury goods
+    electronics: { type: 'luxury', produces: ['Electronics'], chain: ['Steel', 'Copper', 'Diamonds', 'Electronics'] },
+    jewelry: { type: 'luxury', produces: ['Jewelry'], chain: ['Gold', 'Glass', 'Diamonds', 'Jewelry'] },
+    'sports-cars': { type: 'luxury', produces: ['Sports Cars'], chain: ['Plastics', 'Steel', 'Glass', 'Sports Cars'] }
+  };
+
+  const chainData = resourceChains[chain];
+  if (!chainData) return true; // Invalid chain, show all
+
+  const resources = chainData.chain;
+
+  // Check if tile produces any of these resources
+  const producesAny = resources.some(resource => 
+    tile.produces.includes(resource)
+  );
+
+  // Check if tile requires any of these resources
+  const requiresAny = resources.some(resource => 
+    tile.requiresGoods.includes(resource)
+  );
+
+  return producesAny || requiresAny;
+}
+
 document.getElementById("search").addEventListener("input", applyFilters);
 document.getElementById("filter-type").addEventListener("change", applyFilters);
 document.getElementById("filter-generation").addEventListener("change", applyFilters);
+document.getElementById("filter-resource-chain").addEventListener("change", applyFilters);
 
 if (document.readyState === "loading") {
   document.addEventListener("DOMContentLoaded", loadTiles);
