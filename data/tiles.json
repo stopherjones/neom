@@ -625,7 +625,7 @@
       "processed": [],
       "luxury": []
     },
-    "description": ""
+    "description": "You get an income of £24 at the end of the Generation."
   },
   {
     "number": 117,
@@ -650,6 +650,95 @@
     "description": "You get an income of £24 at the end of the Generation."
   },
   {
+    "number": 74,
+    "name": "Concrete Houses",
+    "generation": "II",
+    "playerCount": "5+",
+    "type": "Residential",
+    "requires": {
+      "raw": [
+        "Concrete"
+      ],
+      "processed": [],
+      "luxury": [],
+      "money": 2,
+      "tiles": []
+    },
+    "produces": {
+      "raw": [],
+      "processed": [],
+      "luxury": []
+    },
+    "description": ""
+  },
+  {
+    "number": 12,
+    "name": "Concrete Plant",
+    "generation": "I",
+    "playerCount": "1+",
+    "type": "Industrial (Polluting)",
+    "requires": {
+      "raw": [
+        "Stone"
+      ],
+      "processed": [],
+      "luxury": [],
+      "money": 0,
+      "tiles": []
+    },
+    "produces": {
+      "raw": [],
+      "processed": [
+        "Concrete"
+      ],
+      "luxury": []
+    },
+    "description": ""
+  },
+  {
+    "number": 66,
+    "name": "Condominiums",
+    "generation": "II",
+    "playerCount": "4+",
+    "type": "Residential",
+    "requires": {
+      "raw": [],
+      "processed": [],
+      "luxury": [],
+      "money": 2,
+      "tiles": []
+    },
+    "produces": {
+      "raw": [],
+      "processed": [],
+      "luxury": []
+    },
+    "description": ""
+  },
+  {
+    "number": 86,
+    "name": "Condos & Restaurant",
+    "generation": "III",
+    "playerCount": "1+",
+    "type": "Residential & Commercial",
+    "requires": {
+      "raw": [
+        "Concrete",
+        "Glass"
+      ],
+      "processed": [],
+      "luxury": [],
+      "money": 0,
+      "tiles": []
+    },
+    "produces": {
+      "raw": [],
+      "processed": [],
+      "luxury": []
+    },
+    "description": "This tile is both a Residential and a Commercial tile. You get £3 for placing this tile and an income of £3 at the end of each Generation."
+  },
+  {
     "number": 31,
     "name": "Contract Office",
     "generation": "I",
@@ -667,7 +756,7 @@
       "processed": [],
       "luxury": []
     },
-    "description": ""
+    "description": "When you place this tile, you may immediately (and only once) discard any number of your unplaced Cornerstone tiles and take an equal number of Cornerstone tiles from the discard pile."
   },
   {
     "number": 53,
@@ -748,7 +837,7 @@
     },
     "produces": {
       "raw": [
-        "Stone"
+        "Ore", "Stone"
       ],
       "processed": [],
       "luxury": []
@@ -775,7 +864,7 @@
       "processed": [],
       "luxury": []
     },
-    "description": ""
+    "description": "You get £6m for placing this tile and an income of £4 at the end of each Generation."
   },
   {
     "number": 144,
@@ -887,7 +976,7 @@
       "processed": [],
       "luxury": []
     },
-    "description": "During scoring, this tile scores 1 VP for every $5 you gained from your final income..."
+    "description": "During scoring, this tile scores 1 VP for every $5 you gained from your final income at the end of the 3rd Generation."
   },
   {
     "number": 64,
@@ -1029,7 +1118,7 @@
       "processed": [],
       "luxury": []
     },
-    "description": ""
+    "description": "You get £4 for placing this tile and an income of £5 at the end of each Generation."
   },
   {
     "number": 76,
@@ -1049,7 +1138,7 @@
       "processed": [],
       "luxury": []
     },
-    "description": ""
+    "description": "You get £4 for placing this tile and an income of £2 at the end of each Generation."
   },
   {
     "number": 16,
@@ -1094,7 +1183,7 @@
       "processed": [],
       "luxury": []
     },
-    "description": ""
+    "description": "You get £3 for placing this tile and an income of £3 at the end of each Generation."
   },
   {
     "number": 15,
@@ -1208,7 +1297,7 @@
       "processed": [],
       "luxury": []
     },
-    "description": ""
+    "description": "You get £3 for placing this tile and an income of £5 at the end of each Generation."
   },
   {
     "number": 85,
@@ -1289,6 +1378,600 @@
       "luxury": [],
       "money": 0,
       "tiles": []
+    },
+    "produces": {
+      "raw": [],
+      "processed": [],
+      "luxury": []
+    },
+    "description": ""
+  },
+  {
+    "number": 140,
+    "name": "Hydroelectric Power",
+    "generation": "C",
+    "playerCount": "",
+    "type": "Public (Power)",
+    "requires": {
+      "raw": [],
+      "processed": [],
+      "luxury": [],
+      "money": 1,
+      "tiles": []
+    },
+    "produces": {
+      "raw": [],
+      "processed": [],
+      "luxury": []
+    },
+    "description": "During scoring, this tile scores 11 VP minus 1 VP for each nearby Residential, Commercial, Industrial and Public tile."
+  },
+  {
+    "number": 111,
+    "name": "Import Office",
+    "generation": "III",
+    "playerCount": "4+",
+    "type": "Public",
+    "requires": {
+      "raw": [],
+      "processed": [],
+      "luxury": [],
+      "money": 0,
+      "tiles": []
+    },
+    "produces": {
+      "raw": [],
+      "processed": [],
+      "luxury": []
+    },
+    "description": "Whenever you are about to place a tile in your City, the Import Office acts as a virtual Raw or Processed Good of any type."
+  },
+  {
+    "number": 133,
+    "name": "Insurance Office",
+    "generation": "C",
+    "playerCount": "",
+    "type": "Public",
+    "requires": {
+      "raw": [],
+      "processed": [],
+      "luxury": [],
+      "money": 0,
+      "tiles": []
+    },
+    "produces": {
+      "raw": [],
+      "processed": [],
+      "luxury": []
+    },
+    "description": "You get £2 for placing this tile. Each time you are affected by a disaster and decide to pay the penalty, you need only pay half the penalty (rounded down)."
+  },
+  {
+    "number": 141,
+    "name": "Investment Firm",
+    "generation": "C",
+    "playerCount": "",
+    "type": "Public",
+    "requires": {
+      "raw": [],
+      "processed": [],
+      "luxury": [],
+      "money": 5,
+      "tiles": []
+    },
+    "produces": {
+      "raw": [],
+      "processed": [],
+      "luxury": []
+    },
+    "description": "Whenever you select a tile, you gain £1 from the general supply."
+  },
+  {
+    "number": 97,
+    "name": "Jewelry Manufacturer",
+    "generation": "III",
+    "playerCount": "1+",
+    "type": "Industrial (Polluting)",
+    "requires": {
+      "raw": [],
+      "processed": ["Diamonds", "Glass", "Gold"],
+      "luxury": [],
+      "money": 0,
+      "tiles": []
+    },
+    "produces": {
+      "raw": [],
+      "processed": [],
+      "luxury": ["Jewelry"]
+    },
+    "description": ""
+  },
+  {
+    "number": 109,
+    "name": "Jewelry Manufacturer",
+    "generation": "III",
+    "playerCount": "4+",
+    "type": "Industrial (Polluting)",
+    "requires": {
+      "raw": [],
+      "processed": ["Diamonds", "Glass", "Gold"],
+      "luxury": [],
+      "money": 0,
+      "tiles": []
+    },
+    "produces": {
+      "raw": [],
+      "processed": [],
+      "luxury": ["Jewelry"]
+    },
+    "description": ""
+  },
+  {
+    "number": 89,
+    "name": "Jewelry Store",
+    "generation": "III",
+    "playerCount": "1+",
+    "type": "Commercial",
+    "requires": {
+      "raw": [],
+      "processed": [],
+      "luxury": ["Jewelry"],
+      "money": 0,
+      "tiles": []
+    },
+    "produces": {
+      "raw": [],
+      "processed": [],
+      "luxury": []
+    },
+    "description": "You get £6m for placing this tile and an income of £18 at the end of the Generation."
+  },
+  {
+    "number": 116,
+    "name": "Jewelry Store",
+    "generation": "III",
+    "playerCount": "5+",
+    "type": "Commercial",
+    "requires": {
+      "raw": [],
+      "processed": [],
+      "luxury": ["Jewelry"],
+      "money": 0,
+      "tiles": []
+    },
+    "produces": {
+      "raw": [],
+      "processed": [],
+      "luxury": []
+    },
+    "description": "You get £6m for placing this tile and an income of £18 at the end of the Generation."
+  },
+  {
+    "number": 8,
+    "name": "Laundromat",
+    "generation": "I",
+    "playerCount": "1+",
+    "type": "Commercial",
+    "requires": {
+      "raw": [],
+      "processed": [],
+      "luxury": ["Jewelry"],
+      "money": 0,
+      "tiles": []
+    },
+    "produces": {
+      "raw": [],
+      "processed": [],
+      "luxury": []
+    },
+    "description": "You get an income of £3 at the end of each Generation."
+  },
+  {
+    "number": 19,
+    "name": "Limestone",
+    "generation": "I",
+    "playerCount": "1+",
+    "type": "Resource",
+    "requires": {
+      "raw": ["Stone"],
+      "processed": [],
+      "luxury": [],
+      "money": 0,
+      "tiles": []
+    },
+    "produces": {
+      "raw": [],
+      "processed": [],
+      "luxury": []
+    },
+    "description": "You get an income of £3 at the end of each Generation."
+  },
+  {
+    "number": 46,
+    "name": "Loan Office",
+    "generation": "II",
+    "playerCount": "1+",
+    "type": "Commercial",
+    "requires": {
+      "raw": [],
+      "processed": ["Gold"],
+      "luxury": [],
+      "money": 3,
+      "tiles": []
+    },
+    "produces": {
+      "raw": [],
+      "processed": [],
+      "luxury": []
+    },
+    "description": "You get £8 for placing this tile and an income of £2 at the end of each Generation."
+  },
+  {
+    "number": 41,
+    "name": "Log Cabins",
+    "generation": "II",
+    "playerCount": "1+",
+    "type": "Residential",
+    "requires": {
+      "raw": [],
+      "processed": ["Lumber"],
+      "luxury": [],
+      "money": 0,
+      "tiles": []
+    },
+    "produces": {
+      "raw": [],
+      "processed": [],
+      "luxury": []
+    },
+    "description": ""
+  },
+  {
+    "number": 73,
+    "name": "Log Cabins",
+    "generation": "II",
+    "playerCount": "5+",
+    "type": "Residential",
+    "requires": {
+      "raw": [],
+      "processed": ["Lumber"],
+      "luxury": [],
+      "money": 0,
+      "tiles": []
+    },
+    "produces": {
+      "raw": [],
+      "processed": [],
+      "luxury": []
+    },
+    "description": ""
+  },
+  {
+    "number": 11,
+    "name": "Lumber Mill",
+    "generation": "I",
+    "playerCount": "1+",
+    "type": "Industrial (Polluting)",
+    "requires": {
+      "raw": [
+        "Wood"
+      ],
+      "processed": [],
+      "luxury": [],
+      "money": 0,
+      "tiles": []
+    },
+    "produces": {
+      "raw": [],
+      "processed": [
+        "Lumber"
+      ],
+      "luxury": []
+    },
+    "description": ""
+  },
+  {
+    "number": 37,
+    "name": "Lumber Mill",
+    "generation": "I",
+    "playerCount": "5+",
+    "type": "Industrial (Polluting)",
+    "requires": {
+      "raw": [
+        "Wood"
+      ],
+      "processed": [],
+      "luxury": [],
+      "money": 1,
+      "tiles": []
+    },
+    "produces": {
+      "raw": [],
+      "processed": [
+        "Lumber"
+      ],
+      "luxury": []
+    },
+    "description": ""
+  },
+  {
+    "number": 55,
+    "name": "Lumber Mill",
+    "generation": "II",
+    "playerCount": "1+",
+    "type": "Industrial (Polluting)",
+    "requires": {
+      "raw": [
+        "Wood"
+      ],
+      "processed": [],
+      "luxury": [],
+      "money": 0,
+      "tiles": []
+    },
+    "produces": {
+      "raw": [],
+      "processed": [
+        "Lumber"
+      ],
+      "luxury": []
+    },
+    "description": ""
+  },
+  {
+    "number": 114,
+    "name": "Mansion",
+    "generation": "III",
+    "playerCount": "5+",
+    "type": "Residential",
+    "requires": {
+      "raw": [],
+      "processed": [],
+      "luxury": [],
+      "money": 5,
+      "tiles": []
+    },
+    "produces": {
+      "raw": [],
+      "processed": [],
+      "luxury": []
+    },
+    "description": ""
+  },
+  {
+    "number": 132,
+    "name": "Merchant Union",
+    "generation": "C",
+    "playerCount": "",
+    "type": "Public",
+    "requires": {
+      "raw": [],
+      "processed": [],
+      "luxury": [],
+      "money": 1,
+      "tiles": []
+    },
+    "produces": {
+      "raw": [],
+      "processed": [],
+      "luxury": []
+    },
+    "description": "Each time you place a Commercial tile in your city, you get £1 from the general supply. During scoring this tile scores 1 VP for each Commercial tile in your City."
+  },
+  {
+    "number": 134,
+    "name": "Metro Station",
+    "generation": "C",
+    "playerCount": "",
+    "type": "Public",
+    "requires": {
+      "raw": [],
+      "processed": [],
+      "luxury": [],
+      "money": 0,
+      "tiles": []
+    },
+    "produces": {
+      "raw": [],
+      "processed": [],
+      "luxury": []
+    },
+    "description": "During scoring, this tile scores 3 VP for each Residential, Commercial, Industrial and Public tile in the four corners of your City."
+  },
+  {
+    "number": 22,
+    "name": "Mineral Vein",
+    "generation": "I",
+    "playerCount": "1+",
+    "type": "Resource",
+    "requires": {
+      "raw": [],
+      "processed": [],
+      "luxury": [],
+      "money": 0,
+      "tiles": []
+    },
+    "produces": {
+      "raw": ["Ore"],
+      "processed": [],
+      "luxury": []
+    },
+    "description": ""
+  },
+  {
+    "number": 99,
+    "name": "Modern Factory",
+    "generation": "III",
+    "playerCount": "1+",
+    "type": "Industrial (Polluting)",
+    "requires": {
+      "raw": [],
+      "processed": [],
+      "luxury": [],
+      "money": 0,
+      "tiles": ["3+ Industrial tiles"]
+    },
+    "produces": {
+      "raw": [],
+      "processed": ["Diamonds", "Lumber", "Plastics", "Steel"],
+      "luxury": []
+    },
+    "description": ""
+  },
+  {
+    "number": 100,
+    "name": "Modern Foundry",
+    "generation": "III",
+    "playerCount": "1+",
+    "type": "Industrial (Polluting)",
+    "requires": {
+      "raw": ["Ore", "Stone"],
+      "processed": ["Concrete", "Copper", "Glass", "Gold"],
+      "luxury": [],
+      "money": 2,
+      "tiles": []
+    },
+    "produces": {
+      "raw": [],
+      "processed": ["Diamonds", "Lumber", "Plastics", "Steel"],
+      "luxury": []
+    },
+    "description": ""
+  },
+  {
+    "number": 84,
+    "name": "Modern Housing",
+    "generation": "III",
+    "playerCount": "1+",
+    "type": "Residential",
+    "requires": {
+      "raw": [],
+      "processed": [],
+      "luxury": [],
+      "money": 0,
+      "tiles": []
+    },
+    "produces": {
+      "raw": [],
+      "processed": [],
+      "luxury": []
+    },
+    "description": ""
+  },
+  {
+    "number": 137,
+    "name": "Modular Factory",
+    "generation": "C",
+    "playerCount": "",
+    "type": "Industrial (Polluting)",
+    "requires": {
+      "raw": [],
+      "processed": [],
+      "luxury": [],
+      "money": 0,
+      "tiles": []
+    },
+    "produces": {
+      "raw": [],
+      "processed": ["Processed Good of your choice"],
+      "luxury": []
+    },
+    "description": "This tile provides an income of £2 at the end of each Generation."
+  },
+  {
+    "number": 35,
+    "name": "Motel",
+    "generation": "I",
+    "playerCount": "5+",
+    "type": "Commercial",
+    "requires": {
+      "raw": [],
+      "processed": [],
+      "luxury": [],
+      "money": 2,
+      "tiles": []
+    },
+    "produces": {
+      "raw": [],
+      "processed": [],
+      "luxury": []
+    },
+    "description": "This tile provides an income of £4 at the end of each Generation."
+  },
+    {
+    "number": 23,
+    "name": "Natural Gas Field",
+    "generation": "I",
+    "playerCount": "1+",
+    "type": "Resource",
+    "requires": {
+      "raw": [],
+      "processed": [],
+      "luxury": [],
+      "money": 0,
+      "tiles": []
+    },
+    "produces": {
+      "raw": [
+        "Natural Gas"
+      ],
+      "processed": [],
+      "luxury": []
+    },
+    "description": ""
+  },
+    {
+    "number": 49,
+    "name": "Night Club",
+    "generation": "II",
+    "playerCount": "1+",
+    "type": "Commercial",
+    "requires": {
+      "raw": [],
+      "processed": [],
+      "luxury": [],
+      "money": 4,
+      "tiles": []
+    },
+    "produces": {
+      "raw": [],
+      "processed": [],
+      "luxury": []
+    },
+    "description": "This tile provides an income of £8 at the end of each Generation."
+  },
+    {
+    "number": 101,
+    "name": "Nuclear Power Plant",
+    "generation": "II",
+    "playerCount": "1+",
+    "type": "Public (Power)",
+    "requires": {
+      "raw": [],
+      "processed": [],
+      "luxury": [],
+      "money": 8,
+      "tiles": []
+    },
+    "produces": {
+      "raw": [],
+      "processed": [],
+      "luxury": []
+    },
+    "description": ""
+  },
+    {
+    "number": 83,
+    "name": "Nursing Home",
+    "generation": "III",
+    "playerCount": "1+",
+    "type": "Residential",
+    "requires": {
+      "raw": [],
+      "processed": [],
+      "luxury": [],
+      "money": 0,
+      "tiles": ["3+ Residential tiles"]
     },
     "produces": {
       "raw": [],
@@ -1898,95 +2581,7 @@
     },
     "description": ""
   },
-  {
-    "number": 74,
-    "name": "Concrete Houses",
-    "generation": "II",
-    "playerCount": "5+",
-    "type": "Residential",
-    "requires": {
-      "raw": [
-        "Concrete"
-      ],
-      "processed": [],
-      "luxury": [],
-      "money": 2,
-      "tiles": []
-    },
-    "produces": {
-      "raw": [],
-      "processed": [],
-      "luxury": []
-    },
-    "description": ""
-  },
-  {
-    "number": 12,
-    "name": "Concrete Plant",
-    "generation": "I",
-    "playerCount": "1+",
-    "type": "Industrial (Polluting)",
-    "requires": {
-      "raw": [
-        "Stone"
-      ],
-      "processed": [],
-      "luxury": [],
-      "money": 0,
-      "tiles": []
-    },
-    "produces": {
-      "raw": [],
-      "processed": [
-        "Concrete"
-      ],
-      "luxury": []
-    },
-    "description": ""
-  },
-  {
-    "number": 66,
-    "name": "Condominiums",
-    "generation": "II",
-    "playerCount": "4+",
-    "type": "Residential",
-    "requires": {
-      "raw": [],
-      "processed": [],
-      "luxury": [],
-      "money": 2,
-      "tiles": []
-    },
-    "produces": {
-      "raw": [],
-      "processed": [],
-      "luxury": []
-    },
-    "description": ""
-  },
-  {
-    "number": 86,
-    "name": "Condos & Restaurant",
-    "generation": "III",
-    "playerCount": "1+",
-    "type": "Residential & Commercial",
-    "requires": {
-      "raw": [
-        "Concrete",
-        "Glass"
-      ],
-      "processed": [],
-      "luxury": [],
-      "money": 0,
-      "tiles": []
-    },
-    "produces": {
-      "raw": [],
-      "processed": [],
-      "luxury": []
-    },
-    "description": ""
-  },
+  
   {
     "number": 122,
     "name": "Cement Works",
@@ -2051,66 +2646,7 @@
     },
     "description": ""
   },
-  {
-    "number": 132,
-    "name": "Merchant Union",
-    "generation": "C",
-    "playerCount": "",
-    "type": "Public",
-    "requires": {
-      "raw": [],
-      "processed": [],
-      "luxury": [],
-      "money": 1,
-      "tiles": []
-    },
-    "produces": {
-      "raw": [],
-      "processed": [],
-      "luxury": []
-    },
-    "description": "Gain $1 whenever you place a Commercial tile; scores 1 VP per Commercial tile."
-  },
-  {
-    "number": 133,
-    "name": "Insurance Office",
-    "generation": "C",
-    "playerCount": "",
-    "type": "Public",
-    "requires": {
-      "raw": [],
-      "processed": [],
-      "luxury": [],
-      "money": 0,
-      "tiles": []
-    },
-    "produces": {
-      "raw": [],
-      "processed": [],
-      "luxury": []
-    },
-    "description": "Halves disaster penalties (rounded down)."
-  },
-  {
-    "number": 134,
-    "name": "Metro Station",
-    "generation": "C",
-    "playerCount": "",
-    "type": "Public",
-    "requires": {
-      "raw": [],
-      "processed": [],
-      "luxury": [],
-      "money": 0,
-      "tiles": []
-    },
-    "produces": {
-      "raw": [],
-      "processed": [],
-      "luxury": []
-    },
-    "description": "Scores 3 VP for each tile in the four corners of your City."
-  },
+  
   {
     "number": 136,
     "name": "Luxury Tower",
@@ -2134,69 +2670,7 @@
     },
     "description": ""
   },
-  {
-    "number": 137,
-    "name": "Modular Factory",
-    "generation": "C",
-    "playerCount": "",
-    "type": "Industrial (Polluting)",
-    "requires": {
-      "raw": [],
-      "processed": [],
-      "luxury": [],
-      "money": 0,
-      "tiles": []
-    },
-    "produces": {
-      "raw": [],
-      "processed": [
-        "Any Processed Good"
-      ],
-      "luxury": []
-    },
-    "description": "Produces any one Processed Good; provides $2 income each Generation."
-  },
-  {
-    "number": 140,
-    "name": "Hydroelectric Power",
-    "generation": "C",
-    "playerCount": "",
-    "type": "Public (Power)",
-    "requires": {
-      "raw": [],
-      "processed": [],
-      "luxury": [],
-      "money": 1,
-      "tiles": []
-    },
-    "produces": {
-      "raw": [],
-      "processed": [],
-      "luxury": []
-    },
-    "description": "Generates Power; scores 11 VP minus nearby tiles."
-  },
-  {
-    "number": 141,
-    "name": "Investment Firm",
-    "generation": "C",
-    "playerCount": "",
-    "type": "Public",
-    "requires": {
-      "raw": [],
-      "processed": [],
-      "luxury": [],
-      "money": 5,
-      "tiles": []
-    },
-    "produces": {
-      "raw": [],
-      "processed": [],
-      "luxury": []
-    },
-    "description": "Gain $1 every time you select a tile."
-  },
-  {
+  { 
     "number": 143,
     "name": "Solar Array",
     "generation": "C",
