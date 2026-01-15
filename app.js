@@ -94,8 +94,15 @@ function applyFilters() {
     return true;
   });
 
-  // Sort by tile type when resource chain filter is active
-  if (resourceChain) {
+  // Sort results when not using resource chain filter
+  if (!resourceChain) {
+    const genOrder = {
+      'I': 1,
+      'II': 2,
+      'III': 3,
+      'C': 4
+    };
+
     const typeOrder = {
       'Resource': 1,
       'Industrial': 2,
@@ -104,26 +111,19 @@ function applyFilters() {
       'Public': 5
     };
 
-    const genOrder = {
-      'I': 1,
-      'II': 2,
-      'III': 3,
-      'C': 4
-    };
-
     filtered = filtered.sort((a, b) => {
-      const aTypeOrder = typeOrder[a.type.split(' ')[0]] || 99;
-      const bTypeOrder = typeOrder[b.type.split(' ')[0]] || 99;
-      
-      // First sort by tile type
-      if (aTypeOrder !== bTypeOrder) {
-        return aTypeOrder - bTypeOrder;
-      }
-      
-      // Then sort by generation within the same type
+      // First sort by generation
       const aGenOrder = genOrder[a.generation] || 99;
       const bGenOrder = genOrder[b.generation] || 99;
-      return aGenOrder - bGenOrder;
+      
+      if (aGenOrder !== bGenOrder) {
+        return aGenOrder - bGenOrder;
+      }
+      
+      // Then sort by tile type
+      const aTypeOrder = typeOrder[a.type.split(' ')[0]] || 99;
+      const bTypeOrder = typeOrder[b.type.split(' ')[0]] || 99;
+      return aTypeOrder - bTypeOrder;
     });
   }
 

@@ -5,8 +5,21 @@
     "generation": "II",
     "playerCount": "1+",
     "type": "Resource",
-    "requires": { "raw": [], "processed": [], "luxury": [], "money": 0, "tiles": [] },
-    "produces": { "raw": ["Stone"], "processed": [], "luxury": [] },
+    "requires": {
+      "raw": [],
+      "processed": [],
+      "luxury": [],
+      "money": 0,
+      "tiles": []
+    },
+    "produces": {
+      "raw": [
+        "Stone",
+        "Wood"
+      ],
+      "processed": [],
+      "luxury": []
+    },
     "description": ""
   },
   {
@@ -15,9 +28,19 @@
     "generation": "C",
     "playerCount": "",
     "type": "Public",
-    "requires": { "raw": [], "processed": [], "luxury": [], "money": 0, "tiles": [] },
-    "produces": { "raw": [], "processed": [], "luxury": [] },
-    "description": "During scoring, this tile scores 2 VP for each Industrial tile on the four edges of your City board, including the corner spaces. (There are 16 eligible spaces.)"
+    "requires": {
+      "raw": [],
+      "processed": [],
+      "luxury": [],
+      "money": 0,
+      "tiles": []
+    },
+    "produces": {
+      "raw": [],
+      "processed": [],
+      "luxury": []
+    },
+    "description": "During scoring, this tile scores 2 VP for each Industrial tile on the four edges of your City board, including the corner spaces."
   },
   {
     "number": 9,
@@ -25,9 +48,21 @@
     "generation": "I",
     "playerCount": "1+",
     "type": "Commercial",
-    "requires": { "raw": ["Gold"], "processed": [], "luxury": [], "money": 0, "tiles": [] },
-    "produces": { "raw": [], "processed": [], "luxury": [] },
-    "description": ""
+    "requires": {
+      "raw": [
+        "Gold"
+      ],
+      "processed": [],
+      "luxury": [],
+      "money": 0,
+      "tiles": []
+    },
+    "produces": {
+      "raw": [],
+      "processed": [],
+      "luxury": []
+    },
+    "description": "You get £4 for placing this tile and an income of £2 at the end of each Generation."
   },
   {
     "number": 43,
@@ -35,8 +70,18 @@
     "generation": "II",
     "playerCount": "1+",
     "type": "Residential",
-    "requires": { "raw": [], "processed": [], "luxury": [], "money": 2, "tiles": [] },
-    "produces": { "raw": [], "processed": [], "luxury": [] },
+    "requires": {
+      "raw": [],
+      "processed": [],
+      "luxury": [],
+      "money": 2,
+      "tiles": []
+    },
+    "produces": {
+      "raw": [],
+      "processed": [],
+      "luxury": []
+    },
     "description": ""
   },
   {
@@ -45,9 +90,22 @@
     "generation": "III",
     "playerCount": "1+",
     "type": "Residential & Commercial",
-    "requires": { "raw": ["Lumber", "Steel"], "processed": [], "luxury": [], "money": 0, "tiles": [] },
-    "produces": { "raw": [], "processed": [], "luxury": [] },
-    "description": ""
+    "requires": {
+      "raw": [
+        "Lumber",
+        "Steel"
+      ],
+      "processed": [],
+      "luxury": [],
+      "money": 0,
+      "tiles": []
+    },
+    "produces": {
+      "raw": [],
+      "processed": [],
+      "luxury": []
+    },
+    "description": "This tile is both a Residential and a Commercial tile. You get £4 for placing this tile and an income of £4 at the end of each Generation."
   },
   {
     "number": 96,
@@ -55,8 +113,24 @@
     "generation": "III",
     "playerCount": "1+",
     "type": "Industrial (Polluting)",
-    "requires": { "raw": ["Glass", "Plastic", "Steel"], "processed": [], "luxury": [], "money": 0, "tiles": [] },
-    "produces": { "raw": [], "processed": [], "luxury": ["Sports Cars"] },
+    "requires": {
+      "raw": [
+        "Glass",
+        "Plastic",
+        "Steel"
+      ],
+      "processed": [],
+      "luxury": [],
+      "money": 0,
+      "tiles": []
+    },
+    "produces": {
+      "raw": [],
+      "processed": [],
+      "luxury": [
+        "Sports Cars"
+      ]
+    },
     "description": ""
   },
   {
@@ -65,8 +139,24 @@
     "generation": "III",
     "playerCount": "4+",
     "type": "Industrial (Polluting)",
-    "requires": { "raw": ["Glass", "Plastic", "Steel"], "processed": [], "luxury": [], "money": 0, "tiles": [] },
-    "produces": { "raw": [], "processed": [], "luxury": ["Sports Cars"] },
+    "requires": {
+      "raw": [
+        "Glass",
+        "Plastic",
+        "Steel"
+      ],
+      "processed": [],
+      "luxury": [],
+      "money": 0,
+      "tiles": []
+    },
+    "produces": {
+      "raw": [],
+      "processed": [],
+      "luxury": [
+        "Sports Cars"
+      ]
+    },
     "description": ""
   },
   {
@@ -75,9 +165,21 @@
     "generation": "II",
     "playerCount": "5+",
     "type": "Commercial",
-    "requires": { "raw": ["Gold"], "processed": [], "luxury": [], "money": 0, "tiles": [] },
-    "produces": { "raw": [], "processed": [], "luxury": [] },
-    "description": ""
+    "requires": {
+      "raw": [
+        "Gold"
+      ],
+      "processed": [],
+      "luxury": [],
+      "money": 0,
+      "tiles": []
+    },
+    "produces": {
+      "raw": [],
+      "processed": [],
+      "luxury": []
+    },
+    "description": "You get £1 for placing this tile and an income of £6 at the end of each Generation."
   },
   {
     "number": 82,
@@ -85,8 +187,20 @@
     "generation": "III",
     "playerCount": "1+",
     "type": "Residential & Commercial",
-    "requires": { "raw": ["Concrete"], "processed": [], "luxury": [], "money": 0, "tiles": [] },
-    "produces": { "raw": [], "processed": [], "luxury": [] },
+    "requires": {
+      "raw": [
+        "Concrete"
+      ],
+      "processed": [],
+      "luxury": [],
+      "money": 0,
+      "tiles": []
+    },
+    "produces": {
+      "raw": [],
+      "processed": [],
+      "luxury": []
+    },
     "description": ""
   },
   {
@@ -95,8 +209,18 @@
     "generation": "II",
     "playerCount": "1+",
     "type": "Residential",
-    "requires": { "raw": [], "processed": [], "luxury": [], "money": 0, "tiles": [] },
-    "produces": { "raw": [], "processed": [], "luxury": [] },
+    "requires": {
+      "raw": [],
+      "processed": [],
+      "luxury": [],
+      "money": 0,
+      "tiles": []
+    },
+    "produces": {
+      "raw": [],
+      "processed": [],
+      "luxury": []
+    },
     "description": ""
   },
   {
@@ -105,9 +229,19 @@
     "generation": "C",
     "playerCount": "",
     "type": "Public",
-    "requires": { "raw": [], "processed": [], "luxury": [], "money": 0, "tiles": [] },
-    "produces": { "raw": [], "processed": [], "luxury": [] },
-    "description": "During scoring, this tile scores 3 VP for each Industrial tile in your City within two spaces of a Residential tile..."
+    "requires": {
+      "raw": [],
+      "processed": [],
+      "luxury": [],
+      "money": 0,
+      "tiles": []
+    },
+    "produces": {
+      "raw": [],
+      "processed": [],
+      "luxury": []
+    },
+    "description": "During scoring, this tile scores 3 VP for each Industrial tile in your City within two orthogonal spaces of a Residential tile."
   },
   {
     "number": 88,
@@ -115,9 +249,21 @@
     "generation": "III",
     "playerCount": "1+",
     "type": "Commercial",
-    "requires": { "raw": ["Sports Cars"], "processed": [], "luxury": [], "money": 0, "tiles": [] },
-    "produces": { "raw": [], "processed": [], "luxury": [] },
-    "description": ""
+    "requires": {
+      "raw": [
+        "Sports Cars"
+      ],
+      "processed": [],
+      "luxury": [],
+      "money": 0,
+      "tiles": []
+    },
+    "produces": {
+      "raw": [],
+      "processed": [],
+      "luxury": []
+    },
+    "description": "You get £12 for placing this tile and an income of £12 at the end of each Generation."
   },
   {
     "number": 115,
@@ -125,9 +271,21 @@
     "generation": "III",
     "playerCount": "5+",
     "type": "Commercial",
-    "requires": { "raw": ["Sports Cars"], "processed": [], "luxury": [], "money": 0, "tiles": [] },
-    "produces": { "raw": [], "processed": [], "luxury": [] },
-    "description": ""
+    "requires": {
+      "raw": [
+        "Sports Cars"
+      ],
+      "processed": [],
+      "luxury": [],
+      "money": 0,
+      "tiles": []
+    },
+    "produces": {
+      "raw": [],
+      "processed": [],
+      "luxury": []
+    },
+    "description": "You get £12 for placing this tile and an income of £12 at the end of each Generation."
   },
   {
     "number": 121,
@@ -135,9 +293,19 @@
     "generation": "C",
     "playerCount": "",
     "type": "Commercial",
-    "requires": { "raw": [], "processed": [], "luxury": [], "money": 0, "tiles": [] },
-    "produces": { "raw": [], "processed": [], "luxury": [] },
-    "description": "You get $1 for placing this tile..."
+    "requires": {
+      "raw": [],
+      "processed": [],
+      "luxury": [],
+      "money": 0,
+      "tiles": []
+    },
+    "produces": {
+      "raw": [],
+      "processed": [],
+      "luxury": []
+    },
+    "description": "You get £1 for placing this tile. At the end of each Generation, count the Residential tiles in your City and receive income equal to that number."
   },
   {
     "number": 113,
@@ -145,8 +313,22 @@
     "generation": "III",
     "playerCount": "5+",
     "type": "Residential",
-    "requires": { "raw": ["Lumber"], "processed": [], "luxury": [], "money": 0, "tiles": [] },
-    "produces": { "raw": [], "processed": [], "luxury": [] },
+    "requires": {
+      "raw": [
+        "Lumber"
+      ],
+      "processed": [
+        "Concrete"
+      ],
+      "luxury": [],
+      "money": 0,
+      "tiles": []
+    },
+    "produces": {
+      "raw": [],
+      "processed": [],
+      "luxury": []
+    },
     "description": ""
   },
   {
@@ -155,9 +337,19 @@
     "generation": "C",
     "playerCount": "",
     "type": "Public",
-    "requires": { "raw": [], "processed": [], "luxury": [], "money": 0, "tiles": [] },
-    "produces": { "raw": [], "processed": [], "luxury": [] },
-    "description": "During scoring, this tile scores 2 VP for each Residential tile nearby two or more Commercial tiles..."
+    "requires": {
+      "raw": [],
+      "processed": [],
+      "luxury": [],
+      "money": 0,
+      "tiles": []
+    },
+    "produces": {
+      "raw": [],
+      "processed": [],
+      "luxury": []
+    },
+    "description": "During scoring, this tile scores 2 VP for each Residential tile in your City that is nearby two or more Commercial tiles."
   },
   {
     "number": 148,
@@ -165,9 +357,19 @@
     "generation": "C",
     "playerCount": "",
     "type": "Public",
-    "requires": { "raw": [], "processed": [], "luxury": [], "money": 0, "tiles": [] },
-    "produces": { "raw": [], "processed": [], "luxury": [] },
-    "description": "During scoring, this tile scores 3 VP for each size-one Neighborhood..."
+    "requires": {
+      "raw": [],
+      "processed": [],
+      "luxury": [],
+      "money": 0,
+      "tiles": []
+    },
+    "produces": {
+      "raw": [],
+      "processed": [],
+      "luxury": []
+    },
+    "description": "During scoring, this tile scores 3 VP for each size-one Neighbourhood, 6 VP for each size-two Neighbourhood, and 9 VP for each size-three Neighbourhood."
   },
   {
     "number": 125,
@@ -175,9 +377,19 @@
     "generation": "C",
     "playerCount": "",
     "type": "Public",
-    "requires": { "raw": [], "processed": [], "luxury": [], "money": 0, "tiles": [] },
-    "produces": { "raw": [], "processed": [], "luxury": [] },
-    "description": "During scoring, this tile scores 3 VP for each set of Residential, Commercial, and Industrial tiles..."
+    "requires": {
+      "raw": [],
+      "processed": [],
+      "luxury": [],
+      "money": 0,
+      "tiles": []
+    },
+    "produces": {
+      "raw": [],
+      "processed": [],
+      "luxury": []
+    },
+    "description": "During scoring, this tile scores 3 VP for each set of Residential, Commercial, and Industrial tiles in your City."
   },
   {
     "number": 129,
@@ -185,9 +397,19 @@
     "generation": "C",
     "playerCount": "",
     "type": "Public",
-    "requires": { "raw": [], "processed": [], "luxury": [], "money": 8, "tiles": [] },
-    "produces": { "raw": [], "processed": [], "luxury": [] },
-    "description": "During scoring, this tile scores 2 VP for each Public tile in your City..."
+    "requires": {
+      "raw": [],
+      "processed": [],
+      "luxury": [],
+      "money": 8,
+      "tiles": []
+    },
+    "produces": {
+      "raw": [],
+      "processed": [],
+      "luxury": []
+    },
+    "description": "During scoring, this tile scores 2 VP for each Public tile in your City."
   },
   {
     "number": 92,
@@ -195,9 +417,21 @@
     "generation": "III",
     "playerCount": "1+",
     "type": "Commercial",
-    "requires": { "raw": ["Plastics"], "processed": [], "luxury": [], "money": 0, "tiles": [] },
-    "produces": { "raw": [], "processed": [], "luxury": [] },
-    "description": ""
+    "requires": {
+      "raw": [
+        "Plastics"
+      ],
+      "processed": [],
+      "luxury": [],
+      "money": 0,
+      "tiles": []
+    },
+    "produces": {
+      "raw": [],
+      "processed": [],
+      "luxury": []
+    },
+    "description": "You get £3 for placing this tile and an income of £13 at the end of the Generation."
   },
   {
     "number": 40,
@@ -205,8 +439,21 @@
     "generation": "I",
     "playerCount": "5+",
     "type": "Resource",
-    "requires": { "raw": [], "processed": [], "luxury": [], "money": 0, "tiles": [] },
-    "produces": { "raw": ["Coal"], "processed": [], "luxury": [] },
+    "requires": {
+      "raw": [],
+      "processed": [],
+      "luxury": [],
+      "money": 0,
+      "tiles": []
+    },
+    "produces": {
+      "raw": [
+        "Coal",
+        "Stone"
+      ],
+      "processed": [],
+      "luxury": []
+    },
     "description": ""
   },
   {
@@ -215,8 +462,20 @@
     "generation": "I",
     "playerCount": "1+",
     "type": "Resource",
-    "requires": { "raw": [], "processed": [], "luxury": [], "money": 0, "tiles": [] },
-    "produces": { "raw": ["Coal"], "processed": [], "luxury": [] },
+    "requires": {
+      "raw": [],
+      "processed": [],
+      "luxury": [],
+      "money": 0,
+      "tiles": []
+    },
+    "produces": {
+      "raw": [
+        "Coal"
+      ],
+      "processed": [],
+      "luxury": []
+    },
     "description": ""
   },
   {
@@ -225,8 +484,21 @@
     "generation": "II",
     "playerCount": "1+",
     "type": "Resource",
-    "requires": { "raw": [], "processed": [], "luxury": [], "money": 0, "tiles": [] },
-    "produces": { "raw": ["Coal"], "processed": [], "luxury": [] },
+    "requires": {
+      "raw": [],
+      "processed": [],
+      "luxury": [],
+      "money": 0,
+      "tiles": []
+    },
+    "produces": {
+      "raw": [
+        "Coal",
+        "Ore"
+      ],
+      "processed": [],
+      "luxury": []
+    },
     "description": ""
   },
   {
@@ -235,9 +507,19 @@
     "generation": "III",
     "playerCount": "1+",
     "type": "Commercial",
-    "requires": { "raw": [], "processed": [], "luxury": [], "money": 0, "tiles": [] },
-    "produces": { "raw": [], "processed": [], "luxury": [] },
-    "description": ""
+    "requires": {
+      "raw": [],
+      "processed": [],
+      "luxury": [],
+      "money": 0,
+      "tiles": []
+    },
+    "produces": {
+      "raw": [],
+      "processed": [],
+      "luxury": []
+    },
+    "description": "You get £13 for placing this tile."
   },
   {
     "number": 2,
@@ -245,8 +527,18 @@
     "generation": "I",
     "playerCount": "1+",
     "type": "Residential",
-    "requires": { "raw": [], "processed": [], "luxury": [], "money": 1, "tiles": [] },
-    "produces": { "raw": [], "processed": [], "luxury": [] },
+    "requires": {
+      "raw": [],
+      "processed": [],
+      "luxury": [],
+      "money": 1,
+      "tiles": []
+    },
+    "produces": {
+      "raw": [],
+      "processed": [],
+      "luxury": []
+    },
     "description": ""
   },
   {
@@ -255,8 +547,20 @@
     "generation": "II",
     "playerCount": "1+",
     "type": "Public (Polluting, Power)",
-    "requires": { "raw": ["Natural Gas"], "processed": [], "luxury": [], "money": 0, "tiles": [] },
-    "produces": { "raw": [], "processed": [], "luxury": [] },
+    "requires": {
+      "raw": [
+        "Natural Gas"
+      ],
+      "processed": [],
+      "luxury": [],
+      "money": 0,
+      "tiles": []
+    },
+    "produces": {
+      "raw": [],
+      "processed": [],
+      "luxury": []
+    },
     "description": ""
   },
   {
@@ -265,8 +569,20 @@
     "generation": "II",
     "playerCount": "5+",
     "type": "Public (Polluting, Power)",
-    "requires": { "raw": ["Natural Gas"], "processed": [], "luxury": [], "money": 2, "tiles": [] },
-    "produces": { "raw": [], "processed": [], "luxury": [] },
+    "requires": {
+      "raw": [
+        "Natural Gas"
+      ],
+      "processed": [],
+      "luxury": [],
+      "money": 2,
+      "tiles": []
+    },
+    "produces": {
+      "raw": [],
+      "processed": [],
+      "luxury": []
+    },
     "description": ""
   },
   {
@@ -275,9 +591,19 @@
     "generation": "C",
     "playerCount": "",
     "type": "Public",
-    "requires": { "raw": [], "processed": [], "luxury": [], "money": 0, "tiles": [] },
-    "produces": { "raw": [], "processed": [], "luxury": [] },
-    "description": "During scoring, this tile scores 4 VP for each Neighborhood..."
+    "requires": {
+      "raw": [],
+      "processed": [],
+      "luxury": [],
+      "money": 0,
+      "tiles": []
+    },
+    "produces": {
+      "raw": [],
+      "processed": [],
+      "luxury": []
+    },
+    "description": "During scoring, this tile scores 4 VP for each Neighborhood in your City, regardless of size."
   },
   {
     "number": 90,
@@ -285,8 +611,20 @@
     "generation": "III",
     "playerCount": "1+",
     "type": "Commercial",
-    "requires": { "raw": ["Electronics"], "processed": [], "luxury": [], "money": 0, "tiles": [] },
-    "produces": { "raw": [], "processed": [], "luxury": [] },
+    "requires": {
+      "raw": [],
+      "processed": [],
+      "luxury": [
+        "Electronics"
+      ],
+      "money": 0,
+      "tiles": []
+    },
+    "produces": {
+      "raw": [],
+      "processed": [],
+      "luxury": []
+    },
     "description": ""
   },
   {
@@ -295,9 +633,21 @@
     "generation": "III",
     "playerCount": "5+",
     "type": "Commercial",
-    "requires": { "raw": ["Electronics"], "processed": [], "luxury": [], "money": 0, "tiles": [] },
-    "produces": { "raw": [], "processed": [], "luxury": [] },
-    "description": ""
+    "requires": {
+      "raw": [],
+      "processed": [],
+      "luxury": [
+        "Electronics"
+      ],
+      "money": 0,
+      "tiles": []
+    },
+    "produces": {
+      "raw": [],
+      "processed": [],
+      "luxury": []
+    },
+    "description": "You get an income of £24 at the end of the Generation."
   },
   {
     "number": 31,
@@ -305,8 +655,18 @@
     "generation": "I",
     "playerCount": "4+",
     "type": "Public",
-    "requires": { "raw": [], "processed": [], "luxury": [], "money": 0, "tiles": [] },
-    "produces": { "raw": [], "processed": [], "luxury": [] },
+    "requires": {
+      "raw": [],
+      "processed": [],
+      "luxury": [],
+      "money": 0,
+      "tiles": []
+    },
+    "produces": {
+      "raw": [],
+      "processed": [],
+      "luxury": []
+    },
     "description": ""
   },
   {
@@ -315,8 +675,22 @@
     "generation": "II",
     "playerCount": "1+",
     "type": "Industrial (Polluting)",
-    "requires": { "raw": ["Ore"], "processed": [], "luxury": [], "money": 0, "tiles": [] },
-    "produces": { "raw": [], "processed": ["Copper"], "luxury": [] },
+    "requires": {
+      "raw": [
+        "Ore"
+      ],
+      "processed": [],
+      "luxury": [],
+      "money": 0,
+      "tiles": []
+    },
+    "produces": {
+      "raw": [],
+      "processed": [
+        "Copper"
+      ],
+      "luxury": []
+    },
     "description": ""
   },
   {
@@ -325,8 +699,18 @@
     "generation": "I",
     "playerCount": "4+",
     "type": "Residential",
-    "requires": { "raw": [], "processed": [], "luxury": [], "money": 0, "tiles": [] },
-    "produces": { "raw": [], "processed": [], "luxury": [] },
+    "requires": {
+      "raw": [],
+      "processed": [],
+      "luxury": [],
+      "money": 0,
+      "tiles": []
+    },
+    "produces": {
+      "raw": [],
+      "processed": [],
+      "luxury": []
+    },
     "description": ""
   },
   {
@@ -335,8 +719,18 @@
     "generation": "III",
     "playerCount": "1+",
     "type": "Disaster",
-    "requires": { "raw": [], "processed": [], "luxury": [], "money": 0, "tiles": [] },
-    "produces": { "raw": [], "processed": [], "luxury": [] },
+    "requires": {
+      "raw": [],
+      "processed": [],
+      "luxury": [],
+      "money": 0,
+      "tiles": []
+    },
+    "produces": {
+      "raw": [],
+      "processed": [],
+      "luxury": []
+    },
     "description": ""
   },
   {
@@ -345,8 +739,20 @@
     "generation": "II",
     "playerCount": "4+",
     "type": "Resource",
-    "requires": { "raw": [], "processed": [], "luxury": [], "money": 0, "tiles": [] },
-    "produces": { "raw": ["Stone"], "processed": [], "luxury": [] },
+    "requires": {
+      "raw": [],
+      "processed": [],
+      "luxury": [],
+      "money": 0,
+      "tiles": []
+    },
+    "produces": {
+      "raw": [
+        "Stone"
+      ],
+      "processed": [],
+      "luxury": []
+    },
     "description": ""
   },
   {
@@ -355,8 +761,20 @@
     "generation": "II",
     "playerCount": "1+",
     "type": "Commercial",
-    "requires": { "raw": ["Diamond"], "processed": [], "luxury": [], "money": 0, "tiles": [] },
-    "produces": { "raw": [], "processed": [], "luxury": [] },
+    "requires": {
+      "raw": [
+        "Diamond"
+      ],
+      "processed": [],
+      "luxury": [],
+      "money": 0,
+      "tiles": []
+    },
+    "produces": {
+      "raw": [],
+      "processed": [],
+      "luxury": []
+    },
     "description": ""
   },
   {
@@ -365,8 +783,18 @@
     "generation": "C",
     "playerCount": "",
     "type": "Public",
-    "requires": { "raw": [], "processed": [], "luxury": [], "money": 0, "tiles": [] },
-    "produces": { "raw": [], "processed": [], "luxury": [] },
+    "requires": {
+      "raw": [],
+      "processed": [],
+      "luxury": [],
+      "money": 0,
+      "tiles": []
+    },
+    "produces": {
+      "raw": [],
+      "processed": [],
+      "luxury": []
+    },
     "description": "During scoring, this tile scores 2 VP for each Industrial tile within the largest cluster of Industrial tiles in your City."
   },
   {
@@ -375,8 +803,18 @@
     "generation": "C",
     "playerCount": "",
     "type": "Public",
-    "requires": { "raw": [], "processed": [], "luxury": [], "money": 0, "tiles": [] },
-    "produces": { "raw": [], "processed": [], "luxury": [] },
+    "requires": {
+      "raw": [],
+      "processed": [],
+      "luxury": [],
+      "money": 0,
+      "tiles": []
+    },
+    "produces": {
+      "raw": [],
+      "processed": [],
+      "luxury": []
+    },
     "description": "During scoring, this tile scores 4 VP for each Power-generating tile in your City."
   },
   {
@@ -385,8 +823,24 @@
     "generation": "III",
     "playerCount": "1+",
     "type": "Industrial (Polluting)",
-    "requires": { "raw": ["Copper", "Diamond", "Steel"], "processed": [], "luxury": [], "money": 0, "tiles": [] },
-    "produces": { "raw": [], "processed": [], "luxury": ["Electronics"] },
+    "requires": {
+      "raw": [
+        "Copper",
+        "Diamond",
+        "Steel"
+      ],
+      "processed": [],
+      "luxury": [],
+      "money": 0,
+      "tiles": []
+    },
+    "produces": {
+      "raw": [],
+      "processed": [],
+      "luxury": [
+        "Electronics"
+      ]
+    },
     "description": ""
   },
   {
@@ -395,8 +849,24 @@
     "generation": "III",
     "playerCount": "4+",
     "type": "Industrial (Polluting)",
-    "requires": { "raw": ["Copper", "Diamond", "Steel"], "processed": [], "luxury": [], "money": 0, "tiles": [] },
-    "produces": { "raw": [], "processed": [], "luxury": ["Electronics"] },
+    "requires": {
+      "raw": [
+        "Copper",
+        "Diamond",
+        "Steel"
+      ],
+      "processed": [],
+      "luxury": [],
+      "money": 0,
+      "tiles": []
+    },
+    "produces": {
+      "raw": [],
+      "processed": [],
+      "luxury": [
+        "Electronics"
+      ]
+    },
     "description": ""
   },
   {
@@ -405,8 +875,18 @@
     "generation": "C",
     "playerCount": "",
     "type": "Public",
-    "requires": { "raw": [], "processed": [], "luxury": [], "money": 0, "tiles": [] },
-    "produces": { "raw": [], "processed": [], "luxury": [] },
+    "requires": {
+      "raw": [],
+      "processed": [],
+      "luxury": [],
+      "money": 0,
+      "tiles": []
+    },
+    "produces": {
+      "raw": [],
+      "processed": [],
+      "luxury": []
+    },
     "description": "During scoring, this tile scores 1 VP for every $5 you gained from your final income..."
   },
   {
@@ -415,8 +895,18 @@
     "generation": "II",
     "playerCount": "1+",
     "type": "Disaster",
-    "requires": { "raw": [], "processed": [], "luxury": [], "money": 0, "tiles": [] },
-    "produces": { "raw": [], "processed": [], "luxury": [] },
+    "requires": {
+      "raw": [],
+      "processed": [],
+      "luxury": [],
+      "money": 0,
+      "tiles": []
+    },
+    "produces": {
+      "raw": [],
+      "processed": [],
+      "luxury": []
+    },
     "description": ""
   },
   {
@@ -425,8 +915,18 @@
     "generation": "I",
     "playerCount": "1+",
     "type": "Public",
-    "requires": { "raw": [], "processed": [], "luxury": [], "money": 0, "tiles": [] },
-    "produces": { "raw": [], "processed": [], "luxury": [] },
+    "requires": {
+      "raw": [],
+      "processed": [],
+      "luxury": [],
+      "money": 0,
+      "tiles": []
+    },
+    "produces": {
+      "raw": [],
+      "processed": [],
+      "luxury": []
+    },
     "description": ""
   },
   {
@@ -435,8 +935,18 @@
     "generation": "I",
     "playerCount": "5+",
     "type": "Public",
-    "requires": { "raw": [], "processed": [], "luxury": [], "money": 1, "tiles": [] },
-    "produces": { "raw": [], "processed": [], "luxury": [] },
+    "requires": {
+      "raw": [],
+      "processed": [],
+      "luxury": [],
+      "money": 1,
+      "tiles": []
+    },
+    "produces": {
+      "raw": [],
+      "processed": [],
+      "luxury": []
+    },
     "description": ""
   },
   {
@@ -445,8 +955,18 @@
     "generation": "II",
     "playerCount": "1+",
     "type": "Public",
-    "requires": { "raw": [], "processed": [], "luxury": [], "money": 1, "tiles": [] },
-    "produces": { "raw": [], "processed": [], "luxury": [] },
+    "requires": {
+      "raw": [],
+      "processed": [],
+      "luxury": [],
+      "money": 1,
+      "tiles": []
+    },
+    "produces": {
+      "raw": [],
+      "processed": [],
+      "luxury": []
+    },
     "description": ""
   },
   {
@@ -455,8 +975,18 @@
     "generation": "II",
     "playerCount": "4+",
     "type": "Public",
-    "requires": { "raw": [], "processed": [], "luxury": [], "money": 0, "tiles": [] },
-    "produces": { "raw": [], "processed": [], "luxury": [] },
+    "requires": {
+      "raw": [],
+      "processed": [],
+      "luxury": [],
+      "money": 0,
+      "tiles": []
+    },
+    "produces": {
+      "raw": [],
+      "processed": [],
+      "luxury": []
+    },
     "description": ""
   },
   {
@@ -465,8 +995,18 @@
     "generation": "I",
     "playerCount": "1+",
     "type": "Disaster",
-    "requires": { "raw": [], "processed": [], "luxury": [], "money": 0, "tiles": [] },
-    "produces": { "raw": [], "processed": [], "luxury": [] },
+    "requires": {
+      "raw": [],
+      "processed": [],
+      "luxury": [],
+      "money": 0,
+      "tiles": []
+    },
+    "produces": {
+      "raw": [],
+      "processed": [],
+      "luxury": []
+    },
     "description": ""
   },
   {
@@ -475,8 +1015,20 @@
     "generation": "II",
     "playerCount": "1+",
     "type": "Commercial",
-    "requires": { "raw": ["Plastics"], "processed": [], "luxury": [], "money": 0, "tiles": [] },
-    "produces": { "raw": [], "processed": [], "luxury": [] },
+    "requires": {
+      "raw": [
+        "Plastics"
+      ],
+      "processed": [],
+      "luxury": [],
+      "money": 0,
+      "tiles": []
+    },
+    "produces": {
+      "raw": [],
+      "processed": [],
+      "luxury": []
+    },
     "description": ""
   },
   {
@@ -485,8 +1037,18 @@
     "generation": "II",
     "playerCount": "5+",
     "type": "Commercial",
-    "requires": { "raw": [], "processed": [], "luxury": [], "money": 0, "tiles": [] },
-    "produces": { "raw": [], "processed": [], "luxury": [] },
+    "requires": {
+      "raw": [],
+      "processed": [],
+      "luxury": [],
+      "money": 0,
+      "tiles": []
+    },
+    "produces": {
+      "raw": [],
+      "processed": [],
+      "luxury": []
+    },
     "description": ""
   },
   {
@@ -495,8 +1057,21 @@
     "generation": "I",
     "playerCount": "1+",
     "type": "Public (Polluting, Power)",
-    "requires": { "raw": ["Coal", "Oil"], "processed": [], "luxury": [], "money": 0, "tiles": [] },
-    "produces": { "raw": [], "processed": [], "luxury": [] },
+    "requires": {
+      "raw": [
+        "Coal",
+        "Oil"
+      ],
+      "processed": [],
+      "luxury": [],
+      "money": 0,
+      "tiles": []
+    },
+    "produces": {
+      "raw": [],
+      "processed": [],
+      "luxury": []
+    },
     "description": ""
   },
   {
@@ -505,8 +1080,20 @@
     "generation": "I",
     "playerCount": "1+",
     "type": "Commercial",
-    "requires": { "raw": ["Oil"], "processed": [], "luxury": [], "money": 0, "tiles": [] },
-    "produces": { "raw": [], "processed": [], "luxury": [] },
+    "requires": {
+      "raw": [
+        "Oil"
+      ],
+      "processed": [],
+      "luxury": [],
+      "money": 0,
+      "tiles": []
+    },
+    "produces": {
+      "raw": [],
+      "processed": [],
+      "luxury": []
+    },
     "description": ""
   },
   {
@@ -515,8 +1102,20 @@
     "generation": "I",
     "playerCount": "1+",
     "type": "Public (Polluting, Power)",
-    "requires": { "raw": ["Natural Gas"], "processed": [], "luxury": [], "money": 0, "tiles": [] },
-    "produces": { "raw": [], "processed": [], "luxury": [] },
+    "requires": {
+      "raw": [
+        "Natural Gas"
+      ],
+      "processed": [],
+      "luxury": [],
+      "money": 0,
+      "tiles": []
+    },
+    "produces": {
+      "raw": [],
+      "processed": [],
+      "luxury": []
+    },
     "description": ""
   },
   {
@@ -525,8 +1124,22 @@
     "generation": "II",
     "playerCount": "1+",
     "type": "Industrial (Polluting)",
-    "requires": { "raw": ["Stone"], "processed": [], "luxury": [], "money": 0, "tiles": [] },
-    "produces": { "raw": [], "processed": ["Glass"], "luxury": [] },
+    "requires": {
+      "raw": [
+        "Stone"
+      ],
+      "processed": [],
+      "luxury": [],
+      "money": 0,
+      "tiles": []
+    },
+    "produces": {
+      "raw": [],
+      "processed": [
+        "Glass"
+      ],
+      "luxury": []
+    },
     "description": ""
   },
   {
@@ -535,8 +1148,22 @@
     "generation": "I",
     "playerCount": "1+",
     "type": "Industrial (Polluting)",
-    "requires": { "raw": ["Ore"], "processed": [], "luxury": [], "money": 0, "tiles": [] },
-    "produces": { "raw": [], "processed": ["Gold"], "luxury": [] },
+    "requires": {
+      "raw": [
+        "Ore"
+      ],
+      "processed": [],
+      "luxury": [],
+      "money": 0,
+      "tiles": []
+    },
+    "produces": {
+      "raw": [],
+      "processed": [
+        "Gold"
+      ],
+      "luxury": []
+    },
     "description": ""
   },
   {
@@ -545,8 +1172,22 @@
     "generation": "I",
     "playerCount": "4+",
     "type": "Industrial (Polluting)",
-    "requires": { "raw": ["Ore"], "processed": [], "luxury": [], "money": 1, "tiles": [] },
-    "produces": { "raw": [], "processed": ["Gold"], "luxury": [] },
+    "requires": {
+      "raw": [
+        "Ore"
+      ],
+      "processed": [],
+      "luxury": [],
+      "money": 1,
+      "tiles": []
+    },
+    "produces": {
+      "raw": [],
+      "processed": [
+        "Gold"
+      ],
+      "luxury": []
+    },
     "description": ""
   },
   {
@@ -555,8 +1196,18 @@
     "generation": "I",
     "playerCount": "1+",
     "type": "Commercial",
-    "requires": { "raw": [], "processed": [], "luxury": [], "money": 0, "tiles": [] },
-    "produces": { "raw": [], "processed": [], "luxury": [] },
+    "requires": {
+      "raw": [],
+      "processed": [],
+      "luxury": [],
+      "money": 0,
+      "tiles": []
+    },
+    "produces": {
+      "raw": [],
+      "processed": [],
+      "luxury": []
+    },
     "description": ""
   },
   {
@@ -565,8 +1216,18 @@
     "generation": "III",
     "playerCount": "1+",
     "type": "Residential",
-    "requires": { "raw": [], "processed": [], "luxury": [], "money": 2, "tiles": [] },
-    "produces": { "raw": [], "processed": [], "luxury": [] },
+    "requires": {
+      "raw": [],
+      "processed": [],
+      "luxury": [],
+      "money": 2,
+      "tiles": []
+    },
+    "produces": {
+      "raw": [],
+      "processed": [],
+      "luxury": []
+    },
     "description": ""
   },
   {
@@ -575,8 +1236,23 @@
     "generation": "III",
     "playerCount": "4+",
     "type": "Residential",
-    "requires": { "raw": ["Concrete", "Glass", "Lumber", "Steel"], "processed": [], "luxury": [], "money": 0, "tiles": [] },
-    "produces": { "raw": [], "processed": [], "luxury": [] },
+    "requires": {
+      "raw": [
+        "Concrete",
+        "Glass",
+        "Lumber",
+        "Steel"
+      ],
+      "processed": [],
+      "luxury": [],
+      "money": 0,
+      "tiles": []
+    },
+    "produces": {
+      "raw": [],
+      "processed": [],
+      "luxury": []
+    },
     "description": ""
   },
   {
@@ -585,8 +1261,20 @@
     "generation": "III",
     "playerCount": "5+",
     "type": "Public",
-    "requires": { "raw": ["Wood"], "processed": [], "luxury": [], "money": 0, "tiles": [] },
-    "produces": { "raw": [], "processed": [], "luxury": [] },
+    "requires": {
+      "raw": [
+        "Wood"
+      ],
+      "processed": [],
+      "luxury": [],
+      "money": 0,
+      "tiles": []
+    },
+    "produces": {
+      "raw": [],
+      "processed": [],
+      "luxury": []
+    },
     "description": ""
   },
   {
@@ -595,8 +1283,18 @@
     "generation": "II",
     "playerCount": "1+",
     "type": "Commercial",
-    "requires": { "raw": [], "processed": [], "luxury": [], "money": 0, "tiles": [] },
-    "produces": { "raw": [], "processed": [], "luxury": [] },
+    "requires": {
+      "raw": [],
+      "processed": [],
+      "luxury": [],
+      "money": 0,
+      "tiles": []
+    },
+    "produces": {
+      "raw": [],
+      "processed": [],
+      "luxury": []
+    },
     "description": ""
   },
   {
@@ -605,8 +1303,20 @@
     "generation": "II",
     "playerCount": "1+",
     "type": "Resource",
-    "requires": { "raw": [], "processed": [], "luxury": [], "money": 0, "tiles": [] },
-    "produces": { "raw": ["Oil"], "processed": [], "luxury": [] },
+    "requires": {
+      "raw": [],
+      "processed": [],
+      "luxury": [],
+      "money": 0,
+      "tiles": []
+    },
+    "produces": {
+      "raw": [
+        "Oil"
+      ],
+      "processed": [],
+      "luxury": []
+    },
     "description": ""
   },
   {
@@ -615,8 +1325,20 @@
     "generation": "I",
     "playerCount": "1+",
     "type": "Resource",
-    "requires": { "raw": [], "processed": [], "luxury": [], "money": 0, "tiles": [] },
-    "produces": { "raw": ["Oil"], "processed": [], "luxury": [] },
+    "requires": {
+      "raw": [],
+      "processed": [],
+      "luxury": [],
+      "money": 0,
+      "tiles": []
+    },
+    "produces": {
+      "raw": [
+        "Oil"
+      ],
+      "processed": [],
+      "luxury": []
+    },
     "description": ""
   },
   {
@@ -625,8 +1347,18 @@
     "generation": "C",
     "playerCount": "",
     "type": "Public",
-    "requires": { "raw": [], "processed": [], "luxury": [], "money": 0, "tiles": [] },
-    "produces": { "raw": [], "processed": [], "luxury": [] },
+    "requires": {
+      "raw": [],
+      "processed": [],
+      "luxury": [],
+      "money": 0,
+      "tiles": []
+    },
+    "produces": {
+      "raw": [],
+      "processed": [],
+      "luxury": []
+    },
     "description": "During scoring, this tile scores 2 VP for each nearby Polluting tile..."
   },
   {
@@ -635,8 +1367,18 @@
     "generation": "C",
     "playerCount": "",
     "type": "Public",
-    "requires": { "raw": [], "processed": [], "luxury": [], "money": 0, "tiles": [] },
-    "produces": { "raw": [], "processed": [], "luxury": [] },
+    "requires": {
+      "raw": [],
+      "processed": [],
+      "luxury": [],
+      "money": 0,
+      "tiles": []
+    },
+    "produces": {
+      "raw": [],
+      "processed": [],
+      "luxury": []
+    },
     "description": "During scoring, this tile scores 2 VP for each Road square in your City..."
   },
   {
@@ -645,8 +1387,18 @@
     "generation": "I",
     "playerCount": "1+",
     "type": "Commercial",
-    "requires": { "raw": [], "processed": [], "luxury": [], "money": 0, "tiles": [] },
-    "produces": { "raw": [], "processed": [], "luxury": [] },
+    "requires": {
+      "raw": [],
+      "processed": [],
+      "luxury": [],
+      "money": 0,
+      "tiles": []
+    },
+    "produces": {
+      "raw": [],
+      "processed": [],
+      "luxury": []
+    },
     "description": ""
   },
   {
@@ -655,8 +1407,20 @@
     "generation": "II",
     "playerCount": "5+",
     "type": "Resource",
-    "requires": { "raw": [], "processed": [], "luxury": [], "money": 0, "tiles": [] },
-    "produces": { "raw": ["Natural Gas"], "processed": [], "luxury": [] },
+    "requires": {
+      "raw": [],
+      "processed": [],
+      "luxury": [],
+      "money": 0,
+      "tiles": []
+    },
+    "produces": {
+      "raw": [
+        "Natural Gas"
+      ],
+      "processed": [],
+      "luxury": []
+    },
     "description": ""
   },
   {
@@ -665,8 +1429,18 @@
     "generation": "C",
     "playerCount": "",
     "type": "Residential",
-    "requires": { "raw": [], "processed": [], "luxury": [], "money": 6, "tiles": [] },
-    "produces": { "raw": [], "processed": [], "luxury": [] },
+    "requires": {
+      "raw": [],
+      "processed": [],
+      "luxury": [],
+      "money": 6,
+      "tiles": []
+    },
+    "produces": {
+      "raw": [],
+      "processed": [],
+      "luxury": []
+    },
     "description": "During scoring, this tile scores 6 VP and +1 VP for each nearby Commercial tile..."
   },
   {
@@ -675,8 +1449,18 @@
     "generation": "I",
     "playerCount": "5+",
     "type": "Commercial",
-    "requires": { "raw": [], "processed": [], "luxury": [], "money": 0, "tiles": [] },
-    "produces": { "raw": [], "processed": [], "luxury": [] },
+    "requires": {
+      "raw": [],
+      "processed": [],
+      "luxury": [],
+      "money": 0,
+      "tiles": []
+    },
+    "produces": {
+      "raw": [],
+      "processed": [],
+      "luxury": []
+    },
     "description": ""
   },
   {
@@ -685,8 +1469,23 @@
     "generation": "II",
     "playerCount": "1+",
     "type": "Industrial (Polluting)",
-    "requires": { "raw": ["Natural Gas", "Oil"], "processed": [], "luxury": [], "money": 0, "tiles": [] },
-    "produces": { "raw": [], "processed": ["Plastics"], "luxury": [] },
+    "requires": {
+      "raw": [
+        "Natural Gas",
+        "Oil"
+      ],
+      "processed": [],
+      "luxury": [],
+      "money": 0,
+      "tiles": []
+    },
+    "produces": {
+      "raw": [],
+      "processed": [
+        "Plastics"
+      ],
+      "luxury": []
+    },
     "description": ""
   },
   {
@@ -695,8 +1494,23 @@
     "generation": "II",
     "playerCount": "5+",
     "type": "Industrial (Polluting)",
-    "requires": { "raw": ["Natural Gas", "Oil"], "processed": [], "luxury": [], "money": 2, "tiles": [] },
-    "produces": { "raw": [], "processed": ["Plastics"], "luxury": [] },
+    "requires": {
+      "raw": [
+        "Natural Gas",
+        "Oil"
+      ],
+      "processed": [],
+      "luxury": [],
+      "money": 2,
+      "tiles": []
+    },
+    "produces": {
+      "raw": [],
+      "processed": [
+        "Plastics"
+      ],
+      "luxury": []
+    },
     "description": ""
   },
   {
@@ -705,8 +1519,20 @@
     "generation": "III",
     "playerCount": "4+",
     "type": "Commercial",
-    "requires": { "raw": ["Copper"], "processed": [], "luxury": [], "money": 0, "tiles": [] },
-    "produces": { "raw": [], "processed": [], "luxury": [] },
+    "requires": {
+      "raw": [
+        "Copper"
+      ],
+      "processed": [],
+      "luxury": [],
+      "money": 0,
+      "tiles": []
+    },
+    "produces": {
+      "raw": [],
+      "processed": [],
+      "luxury": []
+    },
     "description": ""
   },
   {
@@ -715,8 +1541,18 @@
     "generation": "II",
     "playerCount": "1+",
     "type": "Public",
-    "requires": { "raw": [], "processed": [], "luxury": [], "money": 1, "tiles": [] },
-    "produces": { "raw": [], "processed": [], "luxury": [] },
+    "requires": {
+      "raw": [],
+      "processed": [],
+      "luxury": [],
+      "money": 1,
+      "tiles": []
+    },
+    "produces": {
+      "raw": [],
+      "processed": [],
+      "luxury": []
+    },
     "description": ""
   },
   {
@@ -725,8 +1561,18 @@
     "generation": "II",
     "playerCount": "4+",
     "type": "Public",
-    "requires": { "raw": [], "processed": [], "luxury": [], "money": 0, "tiles": [] },
-    "produces": { "raw": [], "processed": [], "luxury": [] },
+    "requires": {
+      "raw": [],
+      "processed": [],
+      "luxury": [],
+      "money": 0,
+      "tiles": []
+    },
+    "produces": {
+      "raw": [],
+      "processed": [],
+      "luxury": []
+    },
     "description": ""
   },
   {
@@ -735,8 +1581,18 @@
     "generation": "III",
     "playerCount": "1+",
     "type": "Public",
-    "requires": { "raw": [], "processed": [], "luxury": [], "money": 1, "tiles": [] },
-    "produces": { "raw": [], "processed": [], "luxury": [] },
+    "requires": {
+      "raw": [],
+      "processed": [],
+      "luxury": [],
+      "money": 1,
+      "tiles": []
+    },
+    "produces": {
+      "raw": [],
+      "processed": [],
+      "luxury": []
+    },
     "description": ""
   },
   {
@@ -745,8 +1601,18 @@
     "generation": "III",
     "playerCount": "5+",
     "type": "Public",
-    "requires": { "raw": [], "processed": [], "luxury": [], "money": 0, "tiles": [] },
-    "produces": { "raw": [], "processed": [], "luxury": [] },
+    "requires": {
+      "raw": [],
+      "processed": [],
+      "luxury": [],
+      "money": 0,
+      "tiles": []
+    },
+    "produces": {
+      "raw": [],
+      "processed": [],
+      "luxury": []
+    },
     "description": ""
   },
   {
@@ -755,8 +1621,18 @@
     "generation": "II",
     "playerCount": "1+",
     "type": "Public",
-    "requires": { "raw": [], "processed": [], "luxury": [], "money": 0, "tiles": [] },
-    "produces": { "raw": [], "processed": [], "luxury": [] },
+    "requires": {
+      "raw": [],
+      "processed": [],
+      "luxury": [],
+      "money": 0,
+      "tiles": []
+    },
+    "produces": {
+      "raw": [],
+      "processed": [],
+      "luxury": []
+    },
     "description": ""
   },
   {
@@ -765,8 +1641,20 @@
     "generation": "II",
     "playerCount": "1+",
     "type": "Residential",
-    "requires": { "raw": ["Concrete"], "processed": [], "luxury": [], "money": 0, "tiles": [] },
-    "produces": { "raw": [], "processed": [], "luxury": [] },
+    "requires": {
+      "raw": [
+        "Concrete"
+      ],
+      "processed": [],
+      "luxury": [],
+      "money": 0,
+      "tiles": []
+    },
+    "produces": {
+      "raw": [],
+      "processed": [],
+      "luxury": []
+    },
     "description": ""
   },
   {
@@ -775,8 +1663,22 @@
     "generation": "I",
     "playerCount": "1+",
     "type": "Industrial (Polluting)",
-    "requires": { "raw": ["Coal"], "processed": [], "luxury": [], "money": 0, "tiles": [] },
-    "produces": { "raw": [], "processed": ["Steel"], "luxury": [] },
+    "requires": {
+      "raw": [
+        "Coal"
+      ],
+      "processed": [],
+      "luxury": [],
+      "money": 0,
+      "tiles": []
+    },
+    "produces": {
+      "raw": [],
+      "processed": [
+        "Steel"
+      ],
+      "luxury": []
+    },
     "description": ""
   },
   {
@@ -785,8 +1687,22 @@
     "generation": "I",
     "playerCount": "4+",
     "type": "Industrial (Polluting)",
-    "requires": { "raw": ["Coal"], "processed": [], "luxury": [], "money": 1, "tiles": [] },
-    "produces": { "raw": [], "processed": ["Steel"], "luxury": [] },
+    "requires": {
+      "raw": [
+        "Coal"
+      ],
+      "processed": [],
+      "luxury": [],
+      "money": 1,
+      "tiles": []
+    },
+    "produces": {
+      "raw": [],
+      "processed": [
+        "Steel"
+      ],
+      "luxury": []
+    },
     "description": ""
   },
   {
@@ -795,8 +1711,23 @@
     "generation": "II",
     "playerCount": "5+",
     "type": "Industrial (Polluting)",
-    "requires": { "raw": ["Coal", "Ore"], "processed": [], "luxury": [], "money": 2, "tiles": [] },
-    "produces": { "raw": [], "processed": ["Steel"], "luxury": [] },
+    "requires": {
+      "raw": [
+        "Coal",
+        "Ore"
+      ],
+      "processed": [],
+      "luxury": [],
+      "money": 2,
+      "tiles": []
+    },
+    "produces": {
+      "raw": [],
+      "processed": [
+        "Steel"
+      ],
+      "luxury": []
+    },
     "description": ""
   },
   {
@@ -805,8 +1736,18 @@
     "generation": "C",
     "playerCount": "",
     "type": "Public",
-    "requires": { "raw": [], "processed": [], "luxury": [], "money": 2, "tiles": [] },
-    "produces": { "raw": [], "processed": [], "luxury": [] },
+    "requires": {
+      "raw": [],
+      "processed": [],
+      "luxury": [],
+      "money": 2,
+      "tiles": []
+    },
+    "produces": {
+      "raw": [],
+      "processed": [],
+      "luxury": []
+    },
     "description": "During scoring, this tile scores 2 VP for each Residential tile with printed value 0–2 VP."
   },
   {
@@ -815,8 +1756,18 @@
     "generation": "C",
     "playerCount": "",
     "type": "Public",
-    "requires": { "raw": [], "processed": [], "luxury": [], "money": 0, "tiles": [] },
-    "produces": { "raw": [], "processed": [], "luxury": [] },
+    "requires": {
+      "raw": [],
+      "processed": [],
+      "luxury": [],
+      "money": 0,
+      "tiles": []
+    },
+    "produces": {
+      "raw": [],
+      "processed": [],
+      "luxury": []
+    },
     "description": "Provides both Fire and Police protection to itself and nearby tiles."
   },
   {
@@ -825,8 +1776,20 @@
     "generation": "I",
     "playerCount": "1+",
     "type": "Resource",
-    "requires": { "raw": [], "processed": [], "luxury": [], "money": 0, "tiles": [] },
-    "produces": { "raw": ["Wood"], "processed": [], "luxury": [] },
+    "requires": {
+      "raw": [],
+      "processed": [],
+      "luxury": [],
+      "money": 0,
+      "tiles": []
+    },
+    "produces": {
+      "raw": [
+        "Wood"
+      ],
+      "processed": [],
+      "luxury": []
+    },
     "description": ""
   },
   {
@@ -835,8 +1798,20 @@
     "generation": "I",
     "playerCount": "1+",
     "type": "Residential",
-    "requires": { "raw": ["Lumber"], "processed": [], "luxury": [], "money": 0, "tiles": [] },
-    "produces": { "raw": [], "processed": [], "luxury": [] },
+    "requires": {
+      "raw": [
+        "Lumber"
+      ],
+      "processed": [],
+      "luxury": [],
+      "money": 0,
+      "tiles": []
+    },
+    "produces": {
+      "raw": [],
+      "processed": [],
+      "luxury": []
+    },
     "description": ""
   },
   {
@@ -845,8 +1820,18 @@
     "generation": "C",
     "playerCount": "",
     "type": "Public",
-    "requires": { "raw": [], "processed": [], "luxury": [], "money": 0, "tiles": [] },
-    "produces": { "raw": [], "processed": [], "luxury": [] },
+    "requires": {
+      "raw": [],
+      "processed": [],
+      "luxury": [],
+      "money": 0,
+      "tiles": []
+    },
+    "produces": {
+      "raw": [],
+      "processed": [],
+      "luxury": []
+    },
     "description": "Scores 2 VP per Resource tile and 1 VP per Raw Good token."
   },
   {
@@ -855,8 +1840,20 @@
     "generation": "II",
     "playerCount": "4+",
     "type": "Commercial",
-    "requires": { "raw": ["Natural Gas"], "processed": [], "luxury": [], "money": 0, "tiles": [] },
-    "produces": { "raw": [], "processed": [], "luxury": [] },
+    "requires": {
+      "raw": [
+        "Natural Gas"
+      ],
+      "processed": [],
+      "luxury": [],
+      "money": 0,
+      "tiles": []
+    },
+    "produces": {
+      "raw": [],
+      "processed": [],
+      "luxury": []
+    },
     "description": ""
   },
   {
@@ -865,8 +1862,20 @@
     "generation": "III",
     "playerCount": "1+",
     "type": "Commercial",
-    "requires": { "raw": ["Copper"], "processed": [], "luxury": [], "money": 0, "tiles": [] },
-    "produces": { "raw": [], "processed": [], "luxury": [] },
+    "requires": {
+      "raw": [
+        "Copper"
+      ],
+      "processed": [],
+      "luxury": [],
+      "money": 0,
+      "tiles": []
+    },
+    "produces": {
+      "raw": [],
+      "processed": [],
+      "luxury": []
+    },
     "description": ""
   },
   {
@@ -875,118 +1884,18 @@
     "generation": "I",
     "playerCount": "5+",
     "type": "Residential",
-    "requires": { "raw": [], "processed": [], "luxury": [], "money": 0, "tiles": [] },
-    "produces": { "raw": [], "processed": [], "luxury": [] },
-    "description": ""
-  },
-  {
-    "number": 92,
-    "name": "Clothing Store",
-    "generation": "III",
-    "playerCount": "1+",
-    "type": "Commercial",
-    "requires": { "raw": ["Plastics"], "processed": [], "luxury": [], "money": 0, "tiles": [] },
-    "produces": { "raw": [], "processed": [], "luxury": [] },
-    "description": ""
-  },
-  {
-    "number": 40,
-    "name": "Coal Bed",
-    "generation": "I",
-    "playerCount": "5+",
-    "type": "Resource",
-    "requires": { "raw": [], "processed": [], "luxury": [], "money": 0, "tiles": [] },
-    "produces": { "raw": ["Coal"], "processed": [], "luxury": [] },
-    "description": ""
-  },
-  {
-    "number": 21,
-    "name": "Coal Mine",
-    "generation": "I",
-    "playerCount": "1+",
-    "type": "Resource",
-    "requires": { "raw": [], "processed": [], "luxury": [], "money": 0, "tiles": [] },
-    "produces": { "raw": ["Coal"], "processed": [], "luxury": [] },
-    "description": ""
-  },
-  {
-    "number": 61,
-    "name": "Coal Seam",
-    "generation": "II",
-    "playerCount": "1+",
-    "type": "Resource",
-    "requires": { "raw": [], "processed": [], "luxury": [], "money": 0, "tiles": [] },
-    "produces": { "raw": ["Coal"], "processed": [], "luxury": [] },
-    "description": ""
-  },
-  {
-    "number": 95,
-    "name": "Collection Agency",
-    "generation": "III",
-    "playerCount": "1+",
-    "type": "Commercial",
-    "requires": { "raw": [], "processed": [], "luxury": [], "money": 0, "tiles": [] },
-    "produces": { "raw": [], "processed": [], "luxury": [] },
-    "description": ""
-  },
-  {
-    "number": 2,
-    "name": "Colonial Houses",
-    "generation": "I",
-    "playerCount": "1+",
-    "type": "Residential",
-    "requires": { "raw": [], "processed": [], "luxury": [], "money": 1, "tiles": [] },
-    "produces": { "raw": [], "processed": [], "luxury": [] },
-    "description": ""
-  },
-  {
-    "number": 58,
-    "name": "Combined Cycle Plant",
-    "generation": "II",
-    "playerCount": "1+",
-    "type": "Public (Polluting, Power)",
-    "requires": { "raw": ["Natural Gas"], "processed": [], "luxury": [], "money": 0, "tiles": [] },
-    "produces": { "raw": [], "processed": [], "luxury": [] },
-    "description": ""
-  },
-  {
-    "number": 79,
-    "name": "Combined Cycle Plant",
-    "generation": "II",
-    "playerCount": "5+",
-    "type": "Public (Polluting, Power)",
-    "requires": { "raw": ["Natural Gas"], "processed": [], "luxury": [], "money": 2, "tiles": [] },
-    "produces": { "raw": [], "processed": [], "luxury": [] },
-    "description": ""
-  },
-  {
-    "number": 124,
-    "name": "Community Center",
-    "generation": "C",
-    "playerCount": "",
-    "type": "Public",
-    "requires": { "raw": [], "processed": [], "luxury": [], "money": 0, "tiles": [] },
-    "produces": { "raw": [], "processed": [], "luxury": [] },
-    "description": "During scoring, this tile scores 4 VP for each Neighborhood in your City..."
-  },
-  {
-    "number": 90,
-    "name": "Computer Store",
-    "generation": "III",
-    "playerCount": "1+",
-    "type": "Commercial",
-    "requires": { "raw": ["Electronics"], "processed": [], "luxury": [], "money": 0, "tiles": [] },
-    "produces": { "raw": [], "processed": [], "luxury": [] },
-    "description": ""
-  },
-  {
-    "number": 117,
-    "name": "Computer Store",
-    "generation": "III",
-    "playerCount": "5+",
-    "type": "Commercial",
-    "requires": { "raw": ["Electronics"], "processed": [], "luxury": [], "money": 0, "tiles": [] },
-    "produces": { "raw": [], "processed": [], "luxury": [] },
+    "requires": {
+      "raw": [],
+      "processed": [],
+      "luxury": [],
+      "money": 0,
+      "tiles": []
+    },
+    "produces": {
+      "raw": [],
+      "processed": [],
+      "luxury": []
+    },
     "description": ""
   },
   {
@@ -995,8 +1904,20 @@
     "generation": "II",
     "playerCount": "5+",
     "type": "Residential",
-    "requires": { "raw": ["Concrete"], "processed": [], "luxury": [], "money": 2, "tiles": [] },
-    "produces": { "raw": [], "processed": [], "luxury": [] },
+    "requires": {
+      "raw": [
+        "Concrete"
+      ],
+      "processed": [],
+      "luxury": [],
+      "money": 2,
+      "tiles": []
+    },
+    "produces": {
+      "raw": [],
+      "processed": [],
+      "luxury": []
+    },
     "description": ""
   },
   {
@@ -1005,8 +1926,22 @@
     "generation": "I",
     "playerCount": "1+",
     "type": "Industrial (Polluting)",
-    "requires": { "raw": ["Stone"], "processed": [], "luxury": [], "money": 0, "tiles": [] },
-    "produces": { "raw": [], "processed": ["Concrete"], "luxury": [] },
+    "requires": {
+      "raw": [
+        "Stone"
+      ],
+      "processed": [],
+      "luxury": [],
+      "money": 0,
+      "tiles": []
+    },
+    "produces": {
+      "raw": [],
+      "processed": [
+        "Concrete"
+      ],
+      "luxury": []
+    },
     "description": ""
   },
   {
@@ -1015,8 +1950,18 @@
     "generation": "II",
     "playerCount": "4+",
     "type": "Residential",
-    "requires": { "raw": [], "processed": [], "luxury": [], "money": 2, "tiles": [] },
-    "produces": { "raw": [], "processed": [], "luxury": [] },
+    "requires": {
+      "raw": [],
+      "processed": [],
+      "luxury": [],
+      "money": 2,
+      "tiles": []
+    },
+    "produces": {
+      "raw": [],
+      "processed": [],
+      "luxury": []
+    },
     "description": ""
   },
   {
@@ -1025,159 +1970,22 @@
     "generation": "III",
     "playerCount": "1+",
     "type": "Residential & Commercial",
-    "requires": { "raw": ["Concrete", "Glass"], "processed": [], "luxury": [], "money": 0, "tiles": [] },
-    "produces": { "raw": [], "processed": [], "luxury": [] },
+    "requires": {
+      "raw": [
+        "Concrete",
+        "Glass"
+      ],
+      "processed": [],
+      "luxury": [],
+      "money": 0,
+      "tiles": []
+    },
+    "produces": {
+      "raw": [],
+      "processed": [],
+      "luxury": []
+    },
     "description": ""
-  },
-  {
-    "number": 31,
-    "name": "Contract Office",
-    "generation": "I",
-    "playerCount": "4+",
-    "type": "Public",
-    "requires": { "raw": [], "processed": [], "luxury": [], "money": 0, "tiles": [] },
-    "produces": { "raw": [], "processed": [], "luxury": [] },
-    "description": ""
-  },
-  {
-    "number": 53,
-    "name": "Copper Refinery",
-    "generation": "II",
-    "playerCount": "1+",
-    "type": "Industrial (Polluting)",
-    "requires": { "raw": ["Ore"], "processed": [], "luxury": [], "money": 0, "tiles": [] },
-    "produces": { "raw": [], "processed": ["Copper"], "luxury": [] },
-    "description": ""
-  },
-  {
-    "number": 25,
-    "name": "Cottages",
-    "generation": "I",
-    "playerCount": "4+",
-    "type": "Residential",
-    "requires": { "raw": [], "processed": [], "luxury": [], "money": 0, "tiles": [] },
-    "produces": { "raw": [], "processed": [], "luxury": [] },
-    "description": ""
-  },
-  {
-    "number": 104,
-    "name": "Crime Spree",
-    "generation": "III",
-    "playerCount": "1+",
-    "type": "Disaster",
-    "requires": { "raw": [], "processed": [], "luxury": [], "money": 0, "tiles": [] },
-    "produces": { "raw": [], "processed": [], "luxury": [] },
-    "description": ""
-  },
-  {
-    "number": 72,
-    "name": "Deep Quarry",
-    "generation": "II",
-    "playerCount": "4+",
-    "type": "Resource",
-    "requires": { "raw": [], "processed": [], "luxury": [], "money": 0, "tiles": [] },
-    "produces": { "raw": ["Stone"], "processed": [], "luxury": [] },
-    "description": ""
-  },
-  {
-    "number": 47,
-    "name": "Department Store",
-    "generation": "II",
-    "playerCount": "1+",
-    "type": "Commercial",
-    "requires": { "raw": ["Diamond"], "processed": [], "luxury": [], "money": 0, "tiles": [] },
-    "produces": { "raw": [], "processed": [], "luxury": [] },
-    "description": ""
-  },
-  {
-    "number": 144,
-    "name": "Efficiency Office",
-    "generation": "C",
-    "playerCount": "",
-    "type": "Public",
-    "requires": { "raw": [], "processed": [], "luxury": [], "money": 0, "tiles": [] },
-    "produces": { "raw": [], "processed": [], "luxury": [] },
-    "description": "During scoring, this tile scores 2 VP for each Industrial tile in the largest cluster..."
-  },
-  {
-    "number": 147,
-    "name": "Electrical Substation",
-    "generation": "C",
-    "playerCount": "",
-    "type": "Public",
-    "requires": { "raw": [], "processed": [], "luxury": [], "money": 0, "tiles": [] },
-    "produces": { "raw": [], "processed": [], "luxury": [] },
-    "description": "During scoring, this tile scores 4 VP for each Power-generating tile..."
-  },
-  {
-    "number": 98,
-    "name": "Electronics Factory",
-    "generation": "III",
-    "playerCount": "1+",
-    "type": "Industrial (Polluting)",
-    "requires": { "raw": ["Copper", "Diamond", "Steel"], "processed": [], "luxury": [], "money": 0, "tiles": [] },
-    "produces": { "raw": [], "processed": [], "luxury": ["Electronics"] },
-    "description": ""
-  },
-  {
-    "number": 110,
-    "name": "Electronics Factory",
-    "generation": "III",
-    "playerCount": "4+",
-    "type": "Industrial (Polluting)",
-    "requires": { "raw": ["Copper", "Diamond", "Steel"], "processed": [], "luxury": [], "money": 0, "tiles": [] },
-    "produces": { "raw": [], "processed": [], "luxury": ["Electronics"] },
-    "description": ""
-  },
-  {
-    "number": 149,
-    "name": "Finance Department",
-    "generation": "C",
-    "playerCount": "",
-    "type": "Public",
-    "requires": { "raw": [], "processed": [], "luxury": [], "money": 0, "tiles": [] },
-    "produces": { "raw": [], "processed": [], "luxury": [] },
-    "description": "During scoring, this tile scores 1 VP for every $5 gained from final income..."
-  },
-  {
-    "number": 64,
-    "name": "Fire",
-    "generation": "II",
-    "playerCount": "1+",
-    "type": "Disaster",
-    "requires": { "raw": [], "processed": [], "luxury": [], "money": 0, "tiles": [] },
-    "produces": { "raw": [], "processed": [], "luxury": [] },
-    "description": ""
-  },
-  {
-    "number": 17,
-    "name": "Fire Department",
-    "generation": "I",
-    "playerCount": "1+",
-    "type": "Public",
-    "requires": { "raw": [], "processed": [], "luxury": [], "money": 0, "tiles": [] },
-    "produces": { "raw": [], "processed": [], "luxury": [] },
-    "description": ""
-  },
-  {
-    "number": 38,
-    "name": "Fire Department",
-    "generation": "I",
-    "playerCount": "5+",
-    "type": "Public",
-    "requires": { "raw": [], "processed": [], "luxury": [], "money": 1, "tiles": [] },
-    "produces": { "raw": [], "processed": [], "luxury": [] },
-    "description": ""
-  },
-  {
-    "number": 121,
-    "name": "Casino",
-    "generation": "C",
-    "playerCount": "",
-    "type": "Commercial",
-    "requires": { "raw": [], "processed": [], "luxury": [], "money": 0, "tiles": [] },
-    "produces": { "raw": [], "processed": [], "luxury": [] },
-    "description": "You get $1 for placing this tile. At the end of each Generation, count the Residential tiles in your City and receive income equal to that number."
   },
   {
     "number": 122,
@@ -1185,8 +1993,22 @@
     "generation": "C",
     "playerCount": "",
     "type": "Industrial (Polluting)",
-    "requires": { "raw": ["Stone"], "processed": [], "luxury": [], "money": 0, "tiles": [] },
-    "produces": { "raw": [], "processed": ["Concrete"], "luxury": [] },
+    "requires": {
+      "raw": [
+        "Stone"
+      ],
+      "processed": [],
+      "luxury": [],
+      "money": 0,
+      "tiles": []
+    },
+    "produces": {
+      "raw": [],
+      "processed": [
+        "Concrete"
+      ],
+      "luxury": []
+    },
     "description": ""
   },
   {
@@ -1195,49 +2017,19 @@
     "generation": "C",
     "playerCount": "",
     "type": "Public",
-    "requires": { "raw": [], "processed": [], "luxury": [], "money": 3, "tiles": [] },
-    "produces": { "raw": [], "processed": [], "luxury": [] },
+    "requires": {
+      "raw": [],
+      "processed": [],
+      "luxury": [],
+      "money": 3,
+      "tiles": []
+    },
+    "produces": {
+      "raw": [],
+      "processed": [],
+      "luxury": []
+    },
     "description": ""
-  },
-  {
-    "number": 124,
-    "name": "Community Center",
-    "generation": "C",
-    "playerCount": "",
-    "type": "Public",
-    "requires": { "raw": [], "processed": [], "luxury": [], "money": 0, "tiles": [] },
-    "produces": { "raw": [], "processed": [], "luxury": [] },
-    "description": "During scoring, this tile scores 4 VP for each Neighborhood in your City, regardless of size."
-  },
-  {
-    "number": 125,
-    "name": "City Hall",
-    "generation": "C",
-    "playerCount": "",
-    "type": "Public",
-    "requires": { "raw": [], "processed": [], "luxury": [], "money": 0, "tiles": [] },
-    "produces": { "raw": [], "processed": [], "luxury": [] },
-    "description": "During scoring, this tile scores 3 VP for each set of Residential, Commercial, and Industrial tiles in your City."
-  },
-  {
-    "number": 126,
-    "name": "Park",
-    "generation": "C",
-    "playerCount": "",
-    "type": "Public",
-    "requires": { "raw": [], "processed": [], "luxury": [], "money": 0, "tiles": [] },
-    "produces": { "raw": [], "processed": [], "luxury": [] },
-    "description": "During scoring, this tile scores 2 VP for each nearby Polluting tile."
-  },
-  {
-    "number": 127,
-    "name": "Chamber of Commerce",
-    "generation": "C",
-    "playerCount": "",
-    "type": "Public",
-    "requires": { "raw": [], "processed": [], "luxury": [], "money": 0, "tiles": [] },
-    "produces": { "raw": [], "processed": [], "luxury": [] },
-    "description": "During scoring, this tile scores 2 VP for each Residential tile nearby two or more Commercial tiles."
   },
   {
     "number": 128,
@@ -1245,39 +2037,19 @@
     "generation": "C",
     "playerCount": "",
     "type": "Public",
-    "requires": { "raw": [], "processed": [], "luxury": [], "money": 4, "tiles": [] },
-    "produces": { "raw": [], "processed": [], "luxury": [] },
+    "requires": {
+      "raw": [],
+      "processed": [],
+      "luxury": [],
+      "money": 4,
+      "tiles": []
+    },
+    "produces": {
+      "raw": [],
+      "processed": [],
+      "luxury": []
+    },
     "description": ""
-  },
-  {
-    "number": 129,
-    "name": "Civic Center",
-    "generation": "C",
-    "playerCount": "",
-    "type": "Public",
-    "requires": { "raw": [], "processed": [], "luxury": [], "money": 8, "tiles": [] },
-    "produces": { "raw": [], "processed": [], "luxury": [] },
-    "description": "During scoring, this tile scores 2 VP for each Public tile in your City."
-  },
-  {
-    "number": 130,
-    "name": "Prison",
-    "generation": "C",
-    "playerCount": "",
-    "type": "Public",
-    "requires": { "raw": [], "processed": [], "luxury": [], "money": 2, "tiles": [] },
-    "produces": { "raw": [], "processed": [], "luxury": [] },
-    "description": "During scoring, this tile scores 2 VP for each Residential tile with printed value 0–2 VP."
-  },
-  {
-    "number": 131,
-    "name": "Parking Authority",
-    "generation": "C",
-    "playerCount": "",
-    "type": "Public",
-    "requires": { "raw": [], "processed": [], "luxury": [], "money": 0, "tiles": [] },
-    "produces": { "raw": [], "processed": [], "luxury": [] },
-    "description": "Scores 2 VP for each Road square (2×2 connected roads)."
   },
   {
     "number": 132,
@@ -1285,8 +2057,18 @@
     "generation": "C",
     "playerCount": "",
     "type": "Public",
-    "requires": { "raw": [], "processed": [], "luxury": [], "money": 1, "tiles": [] },
-    "produces": { "raw": [], "processed": [], "luxury": [] },
+    "requires": {
+      "raw": [],
+      "processed": [],
+      "luxury": [],
+      "money": 1,
+      "tiles": []
+    },
+    "produces": {
+      "raw": [],
+      "processed": [],
+      "luxury": []
+    },
     "description": "Gain $1 whenever you place a Commercial tile; scores 1 VP per Commercial tile."
   },
   {
@@ -1295,8 +2077,18 @@
     "generation": "C",
     "playerCount": "",
     "type": "Public",
-    "requires": { "raw": [], "processed": [], "luxury": [], "money": 0, "tiles": [] },
-    "produces": { "raw": [], "processed": [], "luxury": [] },
+    "requires": {
+      "raw": [],
+      "processed": [],
+      "luxury": [],
+      "money": 0,
+      "tiles": []
+    },
+    "produces": {
+      "raw": [],
+      "processed": [],
+      "luxury": []
+    },
     "description": "Halves disaster penalties (rounded down)."
   },
   {
@@ -1305,19 +2097,19 @@
     "generation": "C",
     "playerCount": "",
     "type": "Public",
-    "requires": { "raw": [], "processed": [], "luxury": [], "money": 0, "tiles": [] },
-    "produces": { "raw": [], "processed": [], "luxury": [] },
+    "requires": {
+      "raw": [],
+      "processed": [],
+      "luxury": [],
+      "money": 0,
+      "tiles": []
+    },
+    "produces": {
+      "raw": [],
+      "processed": [],
+      "luxury": []
+    },
     "description": "Scores 3 VP for each tile in the four corners of your City."
-  },
-  {
-    "number": 135,
-    "name": "Penthouse",
-    "generation": "C",
-    "playerCount": "",
-    "type": "Residential",
-    "requires": { "raw": [], "processed": [], "luxury": [], "money": 6, "tiles": [] },
-    "produces": { "raw": [], "processed": [], "luxury": [] },
-    "description": "Scores 6 VP + 1 VP per nearby Commercial tile."
   },
   {
     "number": 136,
@@ -1325,8 +2117,21 @@
     "generation": "C",
     "playerCount": "",
     "type": "Residential",
-    "requires": { "raw": ["Glass", "Steel"], "processed": [], "luxury": [], "money": 4, "tiles": [] },
-    "produces": { "raw": [], "processed": [], "luxury": [] },
+    "requires": {
+      "raw": [
+        "Glass",
+        "Steel"
+      ],
+      "processed": [],
+      "luxury": [],
+      "money": 4,
+      "tiles": []
+    },
+    "produces": {
+      "raw": [],
+      "processed": [],
+      "luxury": []
+    },
     "description": ""
   },
   {
@@ -1335,29 +2140,21 @@
     "generation": "C",
     "playerCount": "",
     "type": "Industrial (Polluting)",
-    "requires": { "raw": [], "processed": [], "luxury": [], "money": 0, "tiles": [] },
-    "produces": { "raw": [], "processed": ["Any Processed Good"], "luxury": [] },
+    "requires": {
+      "raw": [],
+      "processed": [],
+      "luxury": [],
+      "money": 0,
+      "tiles": []
+    },
+    "produces": {
+      "raw": [],
+      "processed": [
+        "Any Processed Good"
+      ],
+      "luxury": []
+    },
     "description": "Produces any one Processed Good; provides $2 income each Generation."
-  },
-  {
-    "number": 138,
-    "name": "Air Quality Department",
-    "generation": "C",
-    "playerCount": "",
-    "type": "Public",
-    "requires": { "raw": [], "processed": [], "luxury": [], "money": 0, "tiles": [] },
-    "produces": { "raw": [], "processed": [], "luxury": [] },
-    "description": "Scores 2 VP per Industrial tile on the board edges."
-  },
-  {
-    "number": 139,
-    "name": "Public Safety Department",
-    "generation": "C",
-    "playerCount": "",
-    "type": "Public",
-    "requires": { "raw": [], "processed": [], "luxury": [], "money": 0, "tiles": [] },
-    "produces": { "raw": [], "processed": [], "luxury": [] },
-    "description": "Provides both Fire and Crime protection."
   },
   {
     "number": 140,
@@ -1365,8 +2162,18 @@
     "generation": "C",
     "playerCount": "",
     "type": "Public (Power)",
-    "requires": { "raw": [], "processed": [], "luxury": [], "money": 1, "tiles": [] },
-    "produces": { "raw": [], "processed": [], "luxury": [] },
+    "requires": {
+      "raw": [],
+      "processed": [],
+      "luxury": [],
+      "money": 1,
+      "tiles": []
+    },
+    "produces": {
+      "raw": [],
+      "processed": [],
+      "luxury": []
+    },
     "description": "Generates Power; scores 11 VP minus nearby tiles."
   },
   {
@@ -1375,19 +2182,19 @@
     "generation": "C",
     "playerCount": "",
     "type": "Public",
-    "requires": { "raw": [], "processed": [], "luxury": [], "money": 5, "tiles": [] },
-    "produces": { "raw": [], "processed": [], "luxury": [] },
+    "requires": {
+      "raw": [],
+      "processed": [],
+      "luxury": [],
+      "money": 5,
+      "tiles": []
+    },
+    "produces": {
+      "raw": [],
+      "processed": [],
+      "luxury": []
+    },
     "description": "Gain $1 every time you select a tile."
-  },
-  {
-    "number": 142,
-    "name": "Bus Depot",
-    "generation": "C",
-    "playerCount": "",
-    "type": "Public",
-    "requires": { "raw": [], "processed": [], "luxury": [], "money": 0, "tiles": [] },
-    "produces": { "raw": [], "processed": [], "luxury": [] },
-    "description": "Scores 3 VP per Industrial tile within 2 spaces of a Residential tile."
   },
   {
     "number": 143,
@@ -1395,29 +2202,21 @@
     "generation": "C",
     "playerCount": "",
     "type": "Public (Power)",
-    "requires": { "raw": ["Glass"], "processed": [], "luxury": [], "money": 3, "tiles": [] },
-    "produces": { "raw": [], "processed": [], "luxury": [] },
+    "requires": {
+      "raw": [
+        "Glass"
+      ],
+      "processed": [],
+      "luxury": [],
+      "money": 3,
+      "tiles": []
+    },
+    "produces": {
+      "raw": [],
+      "processed": [],
+      "luxury": []
+    },
     "description": ""
-  },
-  {
-    "number": 144,
-    "name": "Efficiency Office",
-    "generation": "C",
-    "playerCount": "",
-    "type": "Public",
-    "requires": { "raw": [], "processed": [], "luxury": [], "money": 0, "tiles": [] },
-    "produces": { "raw": [], "processed": [], "luxury": [] },
-    "description": "Scores 2 VP per tile in your largest Industrial cluster."
-  },
-  {
-    "number": 145,
-    "name": "Resource Agency",
-    "generation": "C",
-    "playerCount": "",
-    "type": "Public",
-    "requires": { "raw": [], "processed": [], "luxury": [], "money": 0, "tiles": [] },
-    "produces": { "raw": [], "processed": [], "luxury": [] },
-    "description": "Scores 2 VP per Resource tile and 1 VP per Raw Good token."
   },
   {
     "number": 146,
@@ -1425,39 +2224,23 @@
     "generation": "C",
     "playerCount": "",
     "type": "Public",
-    "requires": { "raw": ["Plastics"], "processed": [], "luxury": [], "money": 2, "tiles": [] },
-    "produces": { "raw": [], "processed": ["Plastics"], "luxury": [] },
+    "requires": {
+      "raw": [
+        "Plastics"
+      ],
+      "processed": [],
+      "luxury": [],
+      "money": 2,
+      "tiles": []
+    },
+    "produces": {
+      "raw": [],
+      "processed": [
+        "Plastics"
+      ],
+      "luxury": []
+    },
     "description": ""
-  },
-  {
-    "number": 147,
-    "name": "Electrical Substation",
-    "generation": "C",
-    "playerCount": "",
-    "type": "Public",
-    "requires": { "raw": [], "processed": [], "luxury": [], "money": 0, "tiles": [] },
-    "produces": { "raw": [], "processed": [], "luxury": [] },
-    "description": "Scores 4 VP per Power-generating tile."
-  },
-  {
-    "number": 148,
-    "name": "City Council",
-    "generation": "C",
-    "playerCount": "",
-    "type": "Public",
-    "requires": { "raw": [], "processed": [], "luxury": [], "money": 0, "tiles": [] },
-    "produces": { "raw": [], "processed": [], "luxury": [] },
-    "description": "Scores 3/6/9 VP depending on Neighborhood sizes."
-  },
-  {
-    "number": 149,
-    "name": "Finance Department",
-    "generation": "C",
-    "playerCount": "",
-    "type": "Public",
-    "requires": { "raw": [], "processed": [], "luxury": [], "money": 0, "tiles": [] },
-    "produces": { "raw": [], "processed": [], "luxury": [] },
-    "description": "Scores 1 VP per $5 gained from final income."
   },
   {
     "number": 150,
@@ -1465,8 +2248,18 @@
     "generation": "C",
     "playerCount": "",
     "type": "Public",
-    "requires": { "raw": [], "processed": [], "luxury": [], "money": 0, "tiles": [] },
-    "produces": { "raw": [], "processed": [], "luxury": [] },
+    "requires": {
+      "raw": [],
+      "processed": [],
+      "luxury": [],
+      "money": 0,
+      "tiles": []
+    },
+    "produces": {
+      "raw": [],
+      "processed": [],
+      "luxury": []
+    },
     "description": "Scores ½ VP per tile with an orthogonally adjacent tile of the same type (rounded down)."
   }
 ]
