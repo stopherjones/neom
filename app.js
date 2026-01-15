@@ -8,21 +8,27 @@ async function loadTiles() {
     
     // Transform the data to match expected structure
     allTiles = tilesArray.map(tile => {
-      let requiresGoods = [];
-      let requiresOther = [];
+      // Combine all required goods from the different categories
+      const requiresGoods = [
+        ...tile.requires.raw,
+        ...tile.requires.processed,
+        ...tile.requires.luxury
+      ];
       
-      if (tile.requires !== "none") {
-        const reqs = tile.requires.split(',').map(r => r.trim());
-        reqs.forEach(req => {
-          if (req.startsWith('£') || /^\d+$/.test(req)) {
-            requiresOther.push(req);
-          } else {
-            requiresGoods.push(req);
-          }
-        });
+      // Handle money requirements and tile requirements
+      const requiresOther = [];
+      if (tile.requires.money > 0) {
+        requiresOther.push(`£${tile.requires.money}`);
       }
+      // Add any tile requirements if they exist
+      requiresOther.push(...tile.requires.tiles);
       
-      const produces = tile.produces ? tile.produces.split(',').map(p => p.trim()) : [];
+      // Combine all produced goods
+      const produces = [
+        ...tile.produces.raw,
+        ...tile.produces.processed,
+        ...tile.produces.luxury
+      ];
       
       return {
         ...tile,
