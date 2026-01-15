@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>NEOM Strategy Engine</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header>
+    <h1>NEOM Tile Browser</h1>
+
+    <div class="controls">
+      <input id="search" type="text" placeholder="Search tiles…" />
+
+      <select id="filter-type">
+        <option value="">All Types</option>
+        <option value="Residential">Residential</option>
+        <option value="Commercial">Commercial</option>
+        <option value="Industrial">Industrial</option>
+        <option value="Public">Public</option>
+        <option value="Resource">Resource</option>
+        <option value="Disaster">Disaster</option>
+      </select>
+
+      <select id="filter-generation">
+        <option value="">All Generations</option>
+        <option value="I">I</option>
+        <option value="II">II</option>
+        <option value="III">III</option>
+        <option value="C">C</option>
+      </select>
+    </div>
+  </header>
+
+  <main>
+    <div id="tiles" class="tile-grid"></div>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>

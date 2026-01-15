@@ -1,0 +1,1502 @@
+[
+  {
+    "number": 62,
+    "name": "Abandoned Quarry",
+    "generation": "II",
+    "playerCount": "1+",
+    "type": "Resource",
+    "requires": "none",
+    "produces": "",
+    "description": ""
+  },
+  {
+    "number": 138,
+    "name": "Air Quality Department",
+    "generation": "C",
+    "playerCount": "",
+    "type": "Public",
+    "requires": "none",
+    "produces": "",
+    "description": "During scoring, this tile scores 2 VP for each Industrial tile on the four edges of your City board, including the corner spaces. (There are 16 eligible spaces.)"
+  },
+  {
+    "number": 9,
+    "name": "Antique Store",
+    "generation": "I",
+    "playerCount": "1+",
+    "type": "Commercial",
+    "requires": "Gold",
+    "produces": "",
+    "description": ""
+  },
+  {
+    "number": 43,
+    "name": "Apartments",
+    "generation": "II",
+    "playerCount": "1+",
+    "type": "Residential",
+    "requires": "£2",
+    "produces": "",
+    "description": ""
+  },
+  {
+    "number": 87,
+    "name": "Apartments & Retail",
+    "generation": "III",
+    "playerCount": "1+",
+    "type": "Residential & Commercial",
+    "requires": "Lumber, Steel",
+    "produces": "",
+    "description": ""
+  },
+  {
+    "number": 96,
+    "name": "Automobile Plant",
+    "generation": "III",
+    "playerCount": "1+",
+    "type": "Industrial (Polluting)",
+    "requires": "Glass, Plastic, Steel",
+    "produces": "",
+    "description": ""
+  },
+  {
+    "number": 108,
+    "name": "Automobile Plant",
+    "generation": "III",
+    "playerCount": "4+",
+    "type": "Industrial (Polluting)",
+    "requires": "Glass, Plastic, Steel",
+    "produces": "",
+    "description": ""
+  },
+  {
+    "number": 75,
+    "name": "Bank",
+    "generation": "II",
+    "playerCount": "5+",
+    "type": "Commercial",
+    "requires": "Gold",
+    "produces": "",
+    "description": ""
+  },
+  {
+    "number": 82,
+    "name": "Brick Houses",
+    "generation": "III",
+    "playerCount": "1+",
+    "type": "Residential & Commercial",
+    "requires": "Concrete",
+    "produces": "",
+    "description": ""
+  },
+  {
+    "number": 44,
+    "name": "Bungalows",
+    "generation": "II",
+    "playerCount": "1+",
+    "type": "Residential",
+    "requires": "none",
+    "produces": "",
+    "description": ""
+  },
+  {
+    "number": 142,
+    "name": "Bus Depot",
+    "generation": "C",
+    "playerCount": "",
+    "type": "Public",
+    "requires": "none",
+    "produces": "",
+    "description": "During scoring, this tile scores 3 VP for each Industrial tile in your City within two spaces of a Residential tile. Distances are counted orthogonally, i.e., the Industrial tile must either be nearby the Residential tile or two spaces away in a straight line."
+  },
+  {
+    "number": 88,
+    "name": "Car Dealership",
+    "generation": "III",
+    "playerCount": "1+",
+    "type": "Commercial",
+    "requires": "Sports Cars",
+    "produces": "",
+    "description": ""
+  },
+  {
+    "number": 115,
+    "name": "Car Dealership",
+    "generation": "III",
+    "playerCount": "5+",
+    "type": "Commercial",
+    "requires": "Sports Cars",
+    "produces": "",
+    "description": ""
+  },
+  {
+    "number": 121,
+    "name": "Casino",
+    "generation": "C",
+    "playerCount": "",
+    "type": "Commercial",
+    "requires": "none",
+    "produces": "",
+    "description": "You get $1 for placing this tile. At the end of each Generation, count the Residential tiles in your City and receive income equal to that number."
+  },
+  {
+    "number": 113,
+    "name": "Castle",
+    "generation": "III",
+    "playerCount": "5+",
+    "type": "Residential",
+    "requires": "Lumber",
+    "produces": "",
+    "description": ""
+  },
+  {
+    "number": 127,
+    "name": "Chamber of Commerce",
+    "generation": "C",
+    "playerCount": "",
+    "type": "Public",
+    "requires": "none",
+    "produces": "",
+    "description": "During scoring, this tile scores 2 VP for each Residential tile in your City that is nearby two or more Commercial tiles. The Commercial tiles need not be arranged as depicted."
+  },
+  {
+    "number": 148,
+    "name": "City Council",
+    "generation": "C",
+    "playerCount": "",
+    "type": "Public",
+    "requires": "none",
+    "produces": "",
+    "description": "During scoring, this tile scores 3 VP for each size-one Neighborhood, 6 VP for each size-two Neighborhood, and 9 VP for each bigger Neighborhood in your City."
+  },
+  {
+    "number": 125,
+    "name": "City Hall",
+    "generation": "C",
+    "playerCount": "",
+    "type": "Public",
+    "requires": "none",
+    "produces": "",
+    "description": "During scoring, this tile scores 3 VP for each set of Residential, Commercial, and Industrial tiles in your City. The tiles in a set need not be connected. Each tile can be part of only one set. (In other words, determine how many Residential, Commercial, and Industrial tiles you have and multiply the smallest of these numbers by three.)"
+  },
+  {
+    "number": 129,
+    "name": "Civic Center",
+    "generation": "C",
+    "playerCount": "",
+    "type": "Public",
+    "requires": "£8",
+    "produces": "",
+    "description": "During scoring, this tile scores 2 VP for each Public tile in your City, itself included."
+  },
+  {
+    "number": 92,
+    "name": "Clothing Store",
+    "generation": "III",
+    "playerCount": "1+",
+    "type": "Commercial",
+    "requires": "Plastics",
+    "produces": "",
+    "description": ""
+  },
+  {
+    "number": 40,
+    "name": "Coal Bed",
+    "generation": "I",
+    "playerCount": "5+",
+    "type": "Resource",
+    "requires": "none",
+    "produces": "",
+    "description": ""
+  },
+  {
+    "number": 21,
+    "name": "Coal Mine",
+    "generation": "I",
+    "playerCount": "1+",
+    "type": "Resource",
+    "requires": "none",
+    "produces": "",
+    "description": ""
+  },
+  {
+    "number": 61,
+    "name": "Coal Seam",
+    "generation": "II",
+    "playerCount": "1+",
+    "type": "Resource",
+    "requires": "none",
+    "produces": "",
+    "description": ""
+  },
+  {
+    "number": 95,
+    "name": "Collection Agency",
+    "generation": "III",
+    "playerCount": "1+",
+    "type": "Commercial",
+    "requires": "none",
+    "produces": "",
+    "description": ""
+  },
+  {
+    "number": 2,
+    "name": "Colonial Houses",
+    "generation": "I",
+    "playerCount": "1+",
+    "type": "Residential",
+    "requires": "£1",
+    "produces": "",
+    "description": ""
+  },
+  {
+    "number": 58,
+    "name": "Combined Cycle Plant",
+    "generation": "II",
+    "playerCount": "1+",
+    "type": "Public (Polluting, Power)",
+    "requires": "Natural Gas",
+    "produces": "",
+    "description": ""
+  },
+  {
+    "number": 79,
+    "name": "Combined Cycle Plant",
+    "generation": "II",
+    "playerCount": "5+",
+    "type": "Public (Polluting, Power)",
+    "requires": "£2, Natural Gas",
+    "produces": "",
+    "description": ""
+  },
+  {
+    "number": 124,
+    "name": "Community Center",
+    "generation": "C",
+    "playerCount": "",
+    "type": "Public",
+    "requires": "none",
+    "produces": "",
+    "description": "During scoring, this tile scores 4 VP for each Neighborhood in your City, regardless of size."
+  },
+  {
+    "number": 90,
+    "name": "Computer Store",
+    "generation": "III",
+    "playerCount": "1+",
+    "type": "Commercial",
+    "requires": "Electronics",
+    "produces": "",
+    "description": ""
+  },
+  {
+    "number": 117,
+    "name": "Computer Store",
+    "generation": "III",
+    "playerCount": "5+",
+    "type": "Commercial",
+    "requires": "Electronics",
+    "produces": "",
+    "description": ""
+  },
+  {
+    "number": 74,
+    "name": "Concrete Houses",
+    "generation": "II",
+    "playerCount": "5+",
+    "type": "Residential",
+    "requires": "£2, Concrete",
+    "produces": "",
+    "description": ""
+  },
+  {
+    "number": 12,
+    "name": "Concrete Plant",
+    "generation": "I",
+    "playerCount": "1+",
+    "type": "Industrial (Polluting)",
+    "requires": "Stone",
+    "produces": "",
+    "description": ""
+  },
+  {
+    "number": 66,
+    "name": "Condominiums",
+    "generation": "II",
+    "playerCount": "4+",
+    "type": "Residential",
+    "requires": "£2",
+    "produces": "",
+    "description": ""
+  },
+  {
+    "number": 86,
+    "name": "Condos & Restaurant",
+    "generation": "III",
+    "playerCount": "1+",
+    "type": "Residential & Commercial",
+    "requires": "Concrete, Glass",
+    "produces": "",
+    "description": ""
+  },
+  {
+    "number": 31,
+    "name": "Contract Office",
+    "generation": "I",
+    "playerCount": "4+",
+    "type": "Public",
+    "requires": "none",
+    "produces": "",
+    "description": ""
+  },
+  {
+    "number": 53,
+    "name": "Copper Refinery",
+    "generation": "II",
+    "playerCount": "1+",
+    "type": "Industrial (Polluting)",
+    "requires": "Ore",
+    "produces": "",
+    "description": ""
+  },
+  {
+    "number": 25,
+    "name": "Cottages",
+    "generation": "I",
+    "playerCount": "4+",
+    "type": "Residential",
+    "requires": "none",
+    "produces": "",
+    "description": ""
+  },
+  {
+    "number": 104,
+    "name": "Crime Spree",
+    "generation": "III",
+    "playerCount": "1+",
+    "type": "Disaster",
+    "requires": "",
+    "produces": "",
+    "description": ""
+  },
+  {
+    "number": 72,
+    "name": "Deep Quarry",
+    "generation": "II",
+    "playerCount": "4+",
+    "type": "Resource",
+    "requires": "none",
+    "produces": "",
+    "description": ""
+  },
+  {
+    "number": 47,
+    "name": "Department Store",
+    "generation": "II",
+    "playerCount": "1+",
+    "type": "Commercial",
+    "requires": "Diamond",
+    "produces": "",
+    "description": ""
+  },
+  {
+    "number": 144,
+    "name": "Efficiency Office",
+    "generation": "C",
+    "playerCount": "",
+    "type": "Public",
+    "requires": "none",
+    "produces": "",
+    "description": "During scoring, this tile scores 2 VP for each Industrial tile within the largest cluster of Industrial tiles in your City."
+  },
+  {
+    "number": 147,
+    "name": "Electrical Substation",
+    "generation": "C",
+    "playerCount": "",
+    "type": "Public",
+    "requires": "none",
+    "produces": "",
+    "description": "During scoring, this tile scores 4 VP for each Power-generating tile in your City."
+  },
+  {
+    "number": 98,
+    "name": "Electronics Factory",
+    "generation": "III",
+    "playerCount": "1+",
+    "type": "Industrial (Polluting)",
+    "requires": "Copper, Diamond, Steel",
+    "produces": "",
+    "description": ""
+  },
+  {
+    "number": 110,
+    "name": "Electronics Factory",
+    "generation": "III",
+    "playerCount": "4+",
+    "type": "Industrial (Polluting)",
+    "requires": "Copper, Diamond, Steel",
+    "produces": "",
+    "description": ""
+  },
+  {
+    "number": 149,
+    "name": "Finance Department",
+    "generation": "C",
+    "playerCount": "",
+    "type": "Public",
+    "requires": "none",
+    "produces": "",
+    "description": "During scoring, this tile scores 1 VP for every $5 you gained from your final income at the end of the 3rd Generation. (Money in your personal supply does not count for this.)"
+  },
+  {
+    "number": 64,
+    "name": "Fire",
+    "generation": "II",
+    "playerCount": "1+",
+    "type": "Disaster",
+    "requires": "",
+    "produces": "",
+    "description": ""
+  },
+  {
+    "number": 17,
+    "name": "Fire Department",
+    "generation": "I",
+    "playerCount": "1+",
+    "type": "Public",
+    "requires": "none",
+    "produces": "",
+    "description": ""
+  },
+  {
+    "number": 38,
+    "name": "Fire Department",
+    "generation": "I",
+    "playerCount": "5+",
+    "type": "Public",
+    "requires": "£1",
+    "produces": "",
+    "description": ""
+  },
+  {
+    "number": 56,
+    "name": "Fire Department",
+    "generation": "II",
+    "playerCount": "1+",
+    "type": "Public",
+    "requires": "£1",
+    "produces": "",
+    "description": ""
+  },
+  {
+    "number": 70,
+    "name": "Fire Department",
+    "generation": "II",
+    "playerCount": "4+",
+    "type": "Public",
+    "requires": "none",
+    "produces": "",
+    "description": ""
+  },
+  {
+    "number": 24,
+    "name": "Flood",
+    "generation": "I",
+    "playerCount": "1+",
+    "type": "Disaster",
+    "requires": "",
+    "produces": "",
+    "description": ""
+  },
+  {
+    "number": 50,
+    "name": "Food Court",
+    "generation": "II",
+    "playerCount": "1+",
+    "type": "Commercial",
+    "requires": "Plastics",
+    "produces": "",
+    "description": ""
+  },
+  {
+    "number": 76,
+    "name": "Forum",
+    "generation": "II",
+    "playerCount": "5+",
+    "type": "Commercial",
+    "requires": "none",
+    "produces": "",
+    "description": ""
+  },
+  {
+    "number": 16,
+    "name": "Fossil Fuel Plant",
+    "generation": "I",
+    "playerCount": "1+",
+    "type": "Public (Polluting, Power)",
+    "requires": "Coal OR Oil",
+    "produces": "",
+    "description": ""
+  },
+  {
+    "number": 10,
+    "name": "Gas Station",
+    "generation": "I",
+    "playerCount": "1+",
+    "type": "Commercial",
+    "requires": "Oil",
+    "produces": "",
+    "description": ""
+  },
+  {
+    "number": 15,
+    "name": "Gas Turbine Plant",
+    "generation": "I",
+    "playerCount": "1+",
+    "type": "Public (Polluting, Power)",
+    "requires": "Natural Gas",
+    "produces": "",
+    "description": ""
+  },
+  {
+    "number": 54,
+    "name": "Glassblower",
+    "generation": "II",
+    "playerCount": "1+",
+    "type": "Industrial (Polluting)",
+    "requires": "Stone",
+    "produces": "",
+    "description": ""
+  },
+  {
+    "number": 13,
+    "name": "Gold Extractor",
+    "generation": "I",
+    "playerCount": "1+",
+    "type": "Industrial (Polluting)",
+    "requires": "Ore",
+    "produces": "",
+    "description": ""
+  },
+  {
+    "number": 29,
+    "name": "Gold Extractor",
+    "generation": "I",
+    "playerCount": "4+",
+    "type": "Industrial (Polluting)",
+    "requires": "£1, Ore",
+    "produces": "",
+    "description": ""
+  },
+  {
+    "number": 6,
+    "name": "Grocery Store",
+    "generation": "I",
+    "playerCount": "1+",
+    "type": "Commercial",
+    "requires": "none",
+    "produces": "",
+    "description": ""
+  },
+  {
+    "number": 85,
+    "name": "Highrise Apartments",
+    "generation": "III",
+    "playerCount": "1+",
+    "type": "Residential",
+    "requires": "£2",
+    "produces": "",
+    "description": ""
+  },
+  {
+    "number": 105,
+    "name": "Highrise Luxury Condos",
+    "generation": "III",
+    "playerCount": "4+",
+    "type": "Residential",
+    "requires": "Concrete, Glass, Lumber, Steel",
+    "produces": "",
+    "description": ""
+  },
+  {
+    "number": 118,
+    "name": "Hospital",
+    "generation": "III",
+    "playerCount": "5+",
+    "type": "Public",
+    "requires": "Wood",
+    "produces": "",
+    "description": ""
+  },
+  {
+    "number": 48,
+    "name": "Hotel",
+    "generation": "II",
+    "playerCount": "1+",
+    "type": "Commercial",
+    "requires": "none",
+    "produces": "",
+    "description": ""
+  },
+  {
+    "number": 140,
+    "name": "Hydroelectric Power",
+    "generation": "C",
+    "playerCount": "",
+    "type": "Public (Power)",
+    "requires": "£1",
+    "produces": "",
+    "description": "This tile generates Power. During scoring, the Hydroelectric Power scores 11 VP minus 1 VP for each nearby Residential, Commercial, Industrial, and Public tile. (Consequently, you will score at least 3 VP and at most 11 VP from this tile. Your first Power-generating tile is effectively worth an additional 5 VP because it prevents the penalty.)"
+  },
+  {
+    "number": 111,
+    "name": "Import Office",
+    "generation": "III",
+    "playerCount": "4+",
+    "type": "Public",
+    "requires": "none",
+    "produces": "",
+    "description": ""
+  },
+  {
+    "number": 133,
+    "name": "Insurance Office",
+    "generation": "C",
+    "playerCount": "",
+    "type": "Public",
+    "requires": "none",
+    "produces": "",
+    "description": "You get $2 for placing this tile. Each time you are affected by a Disaster and decide to pay the penalty (rather than discard tiles), you need to pay only half of the penalty, rounded down. If you cannot or do not want to pay the halved penalty, you must discard tiles as normal."
+  },
+  {
+    "number": 141,
+    "name": "Investment Firm",
+    "generation": "C",
+    "playerCount": "",
+    "type": "Public",
+    "requires": "£5",
+    "produces": "",
+    "description": "Whenever you select a tile, even before you take an action with it, you get $1 from the general supply. You can use this money to pay for the selected tile. This does not apply when you place the INVESTMENT FIRM. (This tile can provide up to $20 over the course of the game, which is equivalent to 10 VP.)"
+  },
+  {
+    "number": 97,
+    "name": "Jewelry Manufactory",
+    "generation": "III",
+    "playerCount": "1+",
+    "type": "Industrial (Polluting)",
+    "requires": "Diamond, Glass, Gold",
+    "produces": "",
+    "description": ""
+  },
+  {
+    "number": 109,
+    "name": "Jewelry Manufactory",
+    "generation": "III",
+    "playerCount": "4+",
+    "type": "Industrial (Polluting)",
+    "requires": "Diamond, Glass, Gold",
+    "produces": "",
+    "description": ""
+  },
+  {
+    "number": 89,
+    "name": "Jewelry Store",
+    "generation": "III",
+    "playerCount": "1+",
+    "type": "Commercial",
+    "requires": "Jewelry",
+    "produces": "",
+    "description": ""
+  },
+  {
+    "number": 116,
+    "name": "Jewelry Store",
+    "generation": "III",
+    "playerCount": "5+",
+    "type": "Commercial",
+    "requires": "Jewelry",
+    "produces": "",
+    "description": ""
+  },
+  {
+    "number": 8,
+    "name": "Laundromat",
+    "generation": "I",
+    "playerCount": "1+",
+    "type": "Commercial",
+    "requires": "none",
+    "produces": "",
+    "description": ""
+  },
+  {
+    "number": 19,
+    "name": "Limestone",
+    "generation": "I",
+    "playerCount": "1+",
+    "type": "Resource",
+    "requires": "none",
+    "produces": "",
+    "description": ""
+  },
+  {
+    "number": 46,
+    "name": "Loan Office",
+    "generation": "II",
+    "playerCount": "1+",
+    "type": "Commercial",
+    "requires": "Gold",
+    "produces": "",
+    "description": ""
+  },
+  {
+    "number": 41,
+    "name": "Log Cabins",
+    "generation": "II",
+    "playerCount": "1+",
+    "type": "Residential",
+    "requires": "Lumber",
+    "produces": "",
+    "description": ""
+  },
+  {
+    "number": 73,
+    "name": "Log Houses",
+    "generation": "II",
+    "playerCount": "5+",
+    "type": "Residential",
+    "requires": "Lumber",
+    "produces": "",
+    "description": ""
+  },
+  {
+    "number": 11,
+    "name": "Lumber Mill",
+    "generation": "I",
+    "playerCount": "1+",
+    "type": "Industrial (Polluting)",
+    "requires": "Wood",
+    "produces": "",
+    "description": ""
+  },
+  {
+    "number": 37,
+    "name": "Lumber Mill",
+    "generation": "I",
+    "playerCount": "5+",
+    "type": "Industrial (Polluting)",
+    "requires": "£1, Wood",
+    "produces": "",
+    "description": ""
+  },
+  {
+    "number": 55,
+    "name": "Lumber Mill",
+    "generation": "II",
+    "playerCount": "1+",
+    "type": "Industrial (Polluting)",
+    "requires": "Wood",
+    "produces": "",
+    "description": ""
+  },
+  {
+    "number": 114,
+    "name": "Mansion",
+    "generation": "III",
+    "playerCount": "5+",
+    "type": "Residential",
+    "requires": "£5",
+    "produces": "",
+    "description": ""
+  },
+  {
+    "number": 132,
+    "name": "Merchant Union",
+    "generation": "C",
+    "playerCount": "",
+    "type": "Public",
+    "requires": "£1",
+    "produces": "",
+    "description": "Each time after you place a Commercial tile in your City, you get $1 from the general supply. You cannot use this money to pay for the Commercial tile. During scoring, this tile scores 1 VP for each Commercial tile in your City."
+  },
+  {
+    "number": 134,
+    "name": "Metro Station",
+    "generation": "C",
+    "playerCount": "",
+    "type": "Public",
+    "requires": "none",
+    "produces": "",
+    "description": "During scoring, this tile scores 3 VP for each Residential, Commercial, Industrial, and Public tile in the four corners of your City. (Consequently, you will score at most 12 VP from this.) The tiles need not be of the same or all of different types."
+  },
+  {
+    "number": 22,
+    "name": "Mineral Vein",
+    "generation": "I",
+    "playerCount": "1+",
+    "type": "Resource",
+    "requires": "none",
+    "produces": "",
+    "description": ""
+  },
+  {
+    "number": 99,
+    "name": "Modern Factory",
+    "generation": "III",
+    "playerCount": "1+",
+    "type": "Industrial (Polluting)",
+    "requires": "see desc.",
+    "produces": "",
+    "description": ""
+  },
+  {
+    "number": 100,
+    "name": "Modern Foundry",
+    "generation": "III",
+    "playerCount": "1+",
+    "type": "Industrial (Polluting)",
+    "requires": "£2, Ore, Stone",
+    "produces": "",
+    "description": ""
+  },
+  {
+    "number": 84,
+    "name": "Modern Housing",
+    "generation": "III",
+    "playerCount": "1+",
+    "type": "Residential",
+    "requires": "none",
+    "produces": "",
+    "description": ""
+  },
+  {
+    "number": 137,
+    "name": "Modular Factory",
+    "generation": "C",
+    "playerCount": "",
+    "type": "Industrial (Polluting)",
+    "requires": "none",
+    "produces": "",
+    "description": "This tile produces a Processed Good of your choice. (You may choose a Good you already have, but you do not get a second Good token of that type.) Additionally, you get an income of $2 at the end of each Generation. (This tile provides up to $6 over the course of the game, which is equivalent to 3 VP. The Processed Good can be worth 2 VP during scoring.)"
+  },
+  {
+    "number": 35,
+    "name": "Motel",
+    "generation": "I",
+    "playerCount": "5+",
+    "type": "Commercial",
+    "requires": "£2",
+    "produces": "",
+    "description": ""
+  },
+  {
+    "number": 23,
+    "name": "Natural Gas Field",
+    "generation": "I",
+    "playerCount": "1+",
+    "type": "Resource",
+    "requires": "none",
+    "produces": "",
+    "description": ""
+  },
+  {
+    "number": 49,
+    "name": "Night Club",
+    "generation": "II",
+    "playerCount": "1+",
+    "type": "Commercial",
+    "requires": "£4",
+    "produces": "",
+    "description": ""
+  },
+  {
+    "number": 101,
+    "name": "Nuclear Power Plant",
+    "generation": "II",
+    "playerCount": "1+",
+    "type": "Public (Power)",
+    "requires": "£8",
+    "produces": "",
+    "description": ""
+  },
+  {
+    "number": 83,
+    "name": "Nursing Home",
+    "generation": "III",
+    "playerCount": "1+",
+    "type": "Residential",
+    "requires": "see desc.",
+    "produces": "",
+    "description": ""
+  },
+  {
+    "number": 63,
+    "name": "Oil Fields",
+    "generation": "II",
+    "playerCount": "1+",
+    "type": "Resource",
+    "requires": "none",
+    "produces": "",
+    "description": ""
+  },
+  {
+    "number": 18,
+    "name": "Oil Well",
+    "generation": "I",
+    "playerCount": "1+",
+    "type": "Resource",
+    "requires": "none",
+    "produces": "",
+    "description": ""
+  },
+  {
+    "number": 126,
+    "name": "Park",
+    "generation": "C",
+    "playerCount": "",
+    "type": "Public",
+    "requires": "none",
+    "produces": "",
+    "description": "During scoring, this tile scores 2 VP for each nearby Polluting tile. (Consequently, this tile can score up to 16 VP.)"
+  },
+  {
+    "number": 131,
+    "name": "Parking Authority",
+    "generation": "C",
+    "playerCount": "",
+    "type": "Public",
+    "requires": "none",
+    "produces": "",
+    "description": "During scoring, this tile scores 2 VP for each Road square in your City. A Road square is formed by four tiles in a 2x2 when all connecting Roads are present. (Bigger squares, like 3x3, do not count.) A single tile can be part of multiple Road squares."
+  },
+  {
+    "number": 7,
+    "name": "Pawn Shop",
+    "generation": "I",
+    "playerCount": "1+",
+    "type": "Commercial",
+    "requires": "none",
+    "produces": "",
+    "description": ""
+  },
+  {
+    "number": 80,
+    "name": "Peat Bog",
+    "generation": "II",
+    "playerCount": "5+",
+    "type": "Resource",
+    "requires": "none",
+    "produces": "",
+    "description": ""
+  },
+  {
+    "number": 135,
+    "name": "Penthouse",
+    "generation": "C",
+    "playerCount": "",
+    "type": "Residential",
+    "requires": "£6",
+    "produces": "",
+    "description": "During scoring, this tile scores 6 VP and an additional 1 VP for each nearby Commercial tile. (Consequently, this tile will score at least 6 VP and at most 14 VP.)"
+  },
+  {
+    "number": 36,
+    "name": "Pharmacy",
+    "generation": "I",
+    "playerCount": "5+",
+    "type": "Commercial",
+    "requires": "none",
+    "produces": "",
+    "description": ""
+  },
+  {
+    "number": 52,
+    "name": "Plastics Factory",
+    "generation": "II",
+    "playerCount": "1+",
+    "type": "Industrial (Polluting)",
+    "requires": "Natural Gas, Oil",
+    "produces": "",
+    "description": ""
+  },
+  {
+    "number": 77,
+    "name": "Plastics Factory",
+    "generation": "II",
+    "playerCount": "5+",
+    "type": "Industrial (Polluting)",
+    "requires": "£2, Natural Gas OR Oil",
+    "produces": "",
+    "description": ""
+  },
+  {
+    "number": 107,
+    "name": "Plumbing Supplies",
+    "generation": "III",
+    "playerCount": "4+",
+    "type": "Commercial",
+    "requires": "Copper",
+    "produces": "",
+    "description": ""
+  },
+  {
+    "number": 57,
+    "name": "Police Department",
+    "generation": "II",
+    "playerCount": "1+",
+    "type": "Public",
+    "requires": "£1",
+    "produces": "",
+    "description": ""
+  },
+  {
+    "number": 71,
+    "name": "Police Department",
+    "generation": "II",
+    "playerCount": "4+",
+    "type": "Public",
+    "requires": "none",
+    "produces": "",
+    "description": ""
+  },
+  {
+    "number": 102,
+    "name": "Police Department",
+    "generation": "III",
+    "playerCount": "1+",
+    "type": "Public",
+    "requires": "£1",
+    "produces": "",
+    "description": ""
+  },
+  {
+    "number": 119,
+    "name": "Police Department",
+    "generation": "III",
+    "playerCount": "5+",
+    "type": "Public",
+    "requires": "none",
+    "produces": "",
+    "description": ""
+  },
+  {
+    "number": 59,
+    "name": "Postal Service",
+    "generation": "II",
+    "playerCount": "1+",
+    "type": "Public",
+    "requires": "none",
+    "produces": "",
+    "description": ""
+  },
+  {
+    "number": 45,
+    "name": "Prefab Housing",
+    "generation": "II",
+    "playerCount": "1+",
+    "type": "Residential",
+    "requires": "Concrete",
+    "produces": "",
+    "description": ""
+  },
+  {
+    "number": 14,
+    "name": "Pressure Boiler",
+    "generation": "I",
+    "playerCount": "1+",
+    "type": "Industrial (Polluting)",
+    "requires": "Coal",
+    "produces": "",
+    "description": ""
+  },
+  {
+    "number": 30,
+    "name": "Pressure Boiler",
+    "generation": "I",
+    "playerCount": "4+",
+    "type": "Industrial (Polluting)",
+    "requires": "£1, Coal",
+    "produces": "",
+    "description": ""
+  },
+  {
+    "number": 78,
+    "name": "Pressure Foundry",
+    "generation": "II",
+    "playerCount": "5+",
+    "type": "Industrial (Polluting)",
+    "requires": "£2, Coal, Ore",
+    "produces": "",
+    "description": ""
+  },
+  {
+    "number": 130,
+    "name": "Prison",
+    "generation": "C",
+    "playerCount": "",
+    "type": "Public",
+    "requires": "£2",
+    "produces": "",
+    "description": "During scoring, this tile scores 2 VP for each Residential tile in your City with a printed value of 0,1,2 VP."
+  },
+  {
+    "number": 139,
+    "name": "Public Safety Department",
+    "generation": "C",
+    "playerCount": "",
+    "type": "Public",
+    "requires": "none",
+    "produces": "",
+    "description": "This tile provides both Fire and Police Protection to itself and to the nearby tiles."
+  },
+  {
+    "number": 20,
+    "name": "Rainforest",
+    "generation": "I",
+    "playerCount": "1+",
+    "type": "Resource",
+    "requires": "none",
+    "produces": "",
+    "description": ""
+  },
+  {
+    "number": 5,
+    "name": "Ranch",
+    "generation": "I",
+    "playerCount": "1+",
+    "type": "Residential",
+    "requires": "Lumber",
+    "produces": "",
+    "description": ""
+  },
+  {
+    "number": 145,
+    "name": "Resource Agency",
+    "generation": "C",
+    "playerCount": "",
+    "type": "Public",
+    "requires": "none",
+    "produces": "",
+    "description": "During scoring, this tile scores 2 VP for each Resource tile in your City and 1 VP for each Raw Good token above your City board."
+  },
+  {
+    "number": 67,
+    "name": "Restaurant",
+    "generation": "II",
+    "playerCount": "4+",
+    "type": "Commercial",
+    "requires": "Natural Gas",
+    "produces": "",
+    "description": ""
+  },
+  {
+    "number": 93,
+    "name": "Roofing Supplies",
+    "generation": "III",
+    "playerCount": "1+",
+    "type": "Commercial",
+    "requires": "Copper",
+    "produces": "",
+    "description": ""
+  },
+  {
+    "number": 33,
+    "name": "Row Housing",
+    "generation": "I",
+    "playerCount": "5+",
+    "type": "Residential",
+    "requires": "none",
+    "produces": "",
+    "description": ""
+  },
+  {
+    "number": 123,
+    "name": "Shopping Center",
+    "generation": "C",
+    "playerCount": "",
+    "type": "Commercial",
+    "requires": "none",
+    "produces": "",
+    "description": "At the end of each Generation, count the Commercial tiles in your City and receive income equal to that number."
+  },
+  {
+    "number": 3,
+    "name": "Slums",
+    "generation": "I",
+    "playerCount": "1+",
+    "type": "Residential",
+    "requires": "none",
+    "produces": "",
+    "description": ""
+  },
+  {
+    "number": 69,
+    "name": "Smelter",
+    "generation": "II",
+    "playerCount": "4+",
+    "type": "Industrial (Polluting)",
+    "requires": "£2, Ore",
+    "produces": "",
+    "description": ""
+  },
+  {
+    "number": 112,
+    "name": "Stadium",
+    "generation": "III",
+    "playerCount": "4+",
+    "type": "Public",
+    "requires": "£25",
+    "produces": "",
+    "description": ""
+  },
+  {
+    "number": 120,
+    "name": "Steam Turbine Plant",
+    "generation": "III",
+    "playerCount": "5+",
+    "type": "Public (Polluting, Power)",
+    "requires": "Coal, Oil",
+    "produces": "",
+    "description": ""
+  },
+  {
+    "number": 51,
+    "name": "Steel Foundry",
+    "generation": "II",
+    "playerCount": "1+",
+    "type": "Industrial (Polluting)",
+    "requires": "Coal, Ore",
+    "produces": "",
+    "description": ""
+  },
+  {
+    "number": 94,
+    "name": "Stock Exchange",
+    "generation": "III",
+    "playerCount": "1+",
+    "type": "Commercial",
+    "requires": "see desc.",
+    "produces": "",
+    "description": ""
+  },
+  {
+    "number": 68,
+    "name": "Stone Crusher",
+    "generation": "II",
+    "playerCount": "4+",
+    "type": "Industrial (Polluting)",
+    "requires": "£2, Stone",
+    "produces": "",
+    "description": ""
+  },
+  {
+    "number": 42,
+    "name": "Suburbs",
+    "generation": "II",
+    "playerCount": "1+",
+    "type": "Residential",
+    "requires": "£1",
+    "produces": "",
+    "description": ""
+  },
+  {
+    "number": 39,
+    "name": "Swamp",
+    "generation": "I",
+    "playerCount": "5+",
+    "type": "Resource",
+    "requires": "none",
+    "produces": "",
+    "description": ""
+  },
+  {
+    "number": 27,
+    "name": "Tavern",
+    "generation": "I",
+    "playerCount": "4+",
+    "type": "Commercial",
+    "requires": "none",
+    "produces": "",
+    "description": ""
+  },
+  {
+    "number": 1,
+    "name": "Tenements",
+    "generation": "I",
+    "playerCount": "1+",
+    "type": "Residential",
+    "requires": "£1",
+    "produces": "",
+    "description": ""
+  },
+  {
+    "number": 26,
+    "name": "Tiny Houses",
+    "generation": "I",
+    "playerCount": "4+",
+    "type": "Residential",
+    "requires": "£3",
+    "produces": "",
+    "description": ""
+  },
+  {
+    "number": 136,
+    "name": "Tour Operator",
+    "generation": "C",
+    "playerCount": "",
+    "type": "Commercial",
+    "requires": "none",
+    "produces": "",
+    "description": "You get $2 for placing this tile. At the end of each Generation, count the Resource tiles in your City and receive income equal to that number."
+  },
+  {
+    "number": 150,
+    "name": "Tourism Board",
+    "generation": "C",
+    "playerCount": "",
+    "type": "Public",
+    "requires": "none",
+    "produces": "",
+    "description": "Whenever you place a tile in your City, you get $2 for each Commercial tile that the newly placed tile is directly connected to."
+  },
+  {
+    "number": 4,
+    "name": "Townhouses",
+    "generation": "I",
+    "playerCount": "1+",
+    "type": "Residential",
+    "requires": "£2",
+    "produces": "",
+    "description": ""
+  },
+  {
+    "number": 106,
+    "name": "Toy Store",
+    "generation": "III",
+    "playerCount": "4+",
+    "type": "Commercial",
+    "requires": "Plastics",
+    "produces": "",
+    "description": ""
+  },
+  {
+    "number": 34,
+    "name": "Tract Housing",
+    "generation": "I",
+    "playerCount": "5+",
+    "type": "Residential",
+    "requires": "£1",
+    "produces": "",
+    "description": ""
+  },
+  {
+    "number": 146,
+    "name": "Trade Office",
+    "generation": "C",
+    "playerCount": "",
+    "type": "Public",
+    "requires": "none",
+    "produces": "",
+    "description": "When placing this tile, you get $2 for each pair of orthogonally adjacent tiles in your City of which one is a Commercial and the other an Industrial tile."
+  },
+  {
+    "number": 122,
+    "name": "Trading Post",
+    "generation": "C",
+    "playerCount": "",
+    "type": "Commercial",
+    "requires": "none",
+    "produces": "",
+    "description": "You get $4 for placing this tile. At the end of each Generation, count the Industrial tiles in your City and receive income equal to that number."
+  },
+  {
+    "number": 60,
+    "name": "Treasury",
+    "generation": "II",
+    "playerCount": "1+",
+    "type": "Public",
+    "requires": "Steel OR £5",
+    "produces": "",
+    "description": ""
+  },
+  {
+    "number": 65,
+    "name": "Triplexes",
+    "generation": "II",
+    "playerCount": "4+",
+    "type": "Residential",
+    "requires": "£3",
+    "produces": "",
+    "description": ""
+  },
+  {
+    "number": 28,
+    "name": "Truck Stop",
+    "generation": "I",
+    "playerCount": "4+",
+    "type": "Commercial",
+    "requires": "none",
+    "produces": "",
+    "description": ""
+  },
+  {
+    "number": 128,
+    "name": "University",
+    "generation": "C",
+    "playerCount": "",
+    "type": "Public",
+    "requires": "£1",
+    "produces": "",
+    "description": "During scoring, this tile scores 1 VP for each Residential and each Industrial tile in your City."
+  },
+  {
+    "number": 81,
+    "name": "Victorian Houses",
+    "generation": "III",
+    "playerCount": "1+",
+    "type": "Residential",
+    "requires": "Lumber",
+    "produces": "",
+    "description": ""
+  },
+  {
+    "number": 103,
+    "name": "Warehouse",
+    "generation": "III",
+    "playerCount": "1+",
+    "type": "Public",
+    "requires": "Concrete",
+    "produces": "",
+    "description": "During scoring, this tile scores 1 VP for each Good token above your City board."
+  },
+  {
+    "number": 91,
+    "name": "Watch Store",
+    "generation": "III",
+    "playerCount": "1+",
+    "type": "Commercial",
+    "requires": "Gold",
+    "produces": "",
+    "description": ""
+  },
+  {
+    "number": 32,
+    "name": "Windmills",
+    "generation": "I",
+    "playerCount": "4+",
+    "type": "Resource",
+    "requires": "none",
+    "produces": "",
+    "description": ""
+  },
+  {
+    "number": 143,
+    "name": "Zoning Authority",
+    "generation": "C",
+    "playerCount": "",
+    "type": "Public",
+    "requires": "none",
+    "produces": "",
+    "description": "During scoring, this tile scores % VP for each tile in your City that shares a type with an orthogonally adjacent tile."
+  }
+]

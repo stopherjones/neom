@@ -1,0 +1,64 @@
+body {
+  font-family: system-ui, sans-serif;
+  margin: 0;
+  background: #f4f4f4;
+}
+
+header {
+  padding: 20px;
+  background: #222;
+  color: white;
+}
+
+.controls {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.controls input,
+.controls select {
+  padding: 8px;
+  font-size: 1rem;
+}
+
+.tile-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 16px;
+  padding: 20px;
+}
+
+.tile {
+  padding: 16px;
+  border-radius: 8px;
+  color: #222;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.15);
+}
+
+.tile h2 {
+  margin: 0 0 8px;
+}
+
+.meta {
+  font-size: 0.9rem;
+  margin-bottom: 8px;
+  opacity: 0.8;
+}
+
+.pill {
+  display: inline-block;
+  background: rgba(255,255,255,0.4);
+  padding: 3px 8px;
+  border-radius: 6px;
+  margin-right: 4px;
+  font-size: 0.8rem;
+}
+
+/* Colour coding */
+.tile.residential { background: #b6e3b6; }
+.tile.commercial  { background: #b6d4f0; }
+.tile.industrial  { background: #f5e79e; }
+.tile.public      { background: #f7c28b; }
+.tile.resource    { background: #d0d0d0; }
+.tile.disaster    { background: #f2b3b3; }
