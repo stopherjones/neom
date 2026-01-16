@@ -3039,7 +3039,7 @@
     "name": "Toy Store",
     "generation": "III",
     "playerCount": "4+",
-    "type": "",
+    "type": "Commercial",
     "requires": {
       "raw": [],
       "processed": ["Plastics"],
@@ -3079,7 +3079,7 @@
     "name": "Trade Office",
     "generation": "C",
     "playerCount": "",
-    "type": "",
+    "type": "Commercial",
     "requires": {
       "raw": [],
       "processed": [],
@@ -3179,7 +3179,7 @@
     "name": "University",
     "generation": "C",
     "playerCount": "",
-    "type": "",
+    "type": "Public",
     "requires": {
       "raw": [],
       "processed": [],

@@ -38,6 +38,8 @@ async function loadTiles() {
       };
     });
     
+    // Apply default sorting on initial load
+    allTiles = sortTiles(allTiles, 'type-gen');
     renderTiles(allTiles);
   } catch (error) {
     console.error('Error loading tiles:', error);
@@ -85,6 +87,7 @@ function applyFilters() {
   const type = document.getElementById("filter-type").value;
   const gen = document.getElementById("filter-generation").value;
   const resourceChain = document.getElementById("filter-resource-chain").value;
+  const sortOption = document.getElementById("sort-options").value;
 
   let filtered = allTiles.filter(tile => {
     if (search && !tile.name.toLowerCase().includes(search)) return false;
@@ -94,40 +97,52 @@ function applyFilters() {
     return true;
   });
 
-  // Sort results when not using resource chain filter
-  if (!resourceChain) {
-    const genOrder = {
-      'I': 1,
-      'II': 2,
-      'III': 3,
-      'C': 4
-    };
-
-    const typeOrder = {
-      'Resource': 1,
-      'Industrial': 2,
-      'Residential': 3,
-      'Commercial': 4,
-      'Public': 5
-    };
-
-    filtered = filtered.sort((a, b) => {
-      // First sort by generation
-      const aGenOrder = genOrder[a.generation] || 99;
-      const bGenOrder = genOrder[b.generation] || 99;
-      
-      if (aGenOrder !== bGenOrder) {
-        return aGenOrder - bGenOrder;
-      }
-      
-      // Then sort by tile type
-      const aTypeOrder = typeOrder[a.type.split(' ')[0]] || 99;
-      const bTypeOrder = typeOrder[b.type.split(' ')[0]] || 99;
-      return aTypeOrder - bTypeOrder;
-    });
-  }
+  // Apply sorting
+  filtered = sortTiles(filtered, sortOption);
 
   renderTiles(filtered);
+}
+
+function sortTiles(tiles, sortOption) {
+  const genOrder = {
+    'I': 1,
+    'II': 2,
+    'III': 3,
+    'C': 4
+  };
+
+  const typeOrder = {
+    'Resource': 1,
+    'Industrial': 2,
+    'Residential': 3,
+    'Commercial': 4,
+    'Public': 5
+  };
+
+  switch (sortOption) {
+    case 'alpha':
+      return tiles.sort((a, b) => a.name.localeCompare(b.name));
+    
+    case 'number':
+      return tiles.sort((a, b) => a.number - b.number);
+    
+    case 'type-gen':
+    default:
+      return tiles.sort((a, b) => {
+        // First sort by tile type
+        const aTypeOrder = typeOrder[a.type.split(' ')[0]] || 99;
+        const bTypeOrder = typeOrder[b.type.split(' ')[0]] || 99;
+        
+        if (aTypeOrder !== bTypeOrder) {
+          return aTypeOrder - bTypeOrder;
+        }
+        
+        // Then sort by generation within the same type
+        const aGenOrder = genOrder[a.generation] || 99;
+        const bGenOrder = genOrder[b.generation] || 99;
+        return aGenOrder - bGenOrder;
+      });
+  }
 }
 
 function isInResourceChain(tile, chain) {
@@ -179,6 +194,7 @@ document.getElementById("search").addEventListener("input", applyFilters);
 document.getElementById("filter-type").addEventListener("change", applyFilters);
 document.getElementById("filter-generation").addEventListener("change", applyFilters);
 document.getElementById("filter-resource-chain").addEventListener("change", applyFilters);
+document.getElementById("sort-options").addEventListener("change", applyFilters);
 
 if (document.readyState === "loading") {
   document.addEventListener("DOMContentLoaded", loadTiles);
