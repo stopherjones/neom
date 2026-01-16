@@ -20,7 +20,7 @@
       "processed": [],
       "luxury": []
     },
-    "description": ""
+    "description": "Stone and Wood are worth 1VP during scoring."
   },
   {
     "number": 138,
@@ -82,7 +82,7 @@
       "processed": [],
       "luxury": []
     },
-    "description": ""
+    "description": "3 VP"
   },
   {
     "number": 87,
@@ -105,7 +105,7 @@
       "processed": [],
       "luxury": []
     },
-    "description": "This tile is both a Residential and a Commercial tile. You get £4 for placing this tile and an income of £4 at the end of each Generation."
+    "description": "2 VP. This tile is both a Residential and a Commercial tile. You get £4 for placing this tile and an income of £4 at the end of each Generation."
   },
   {
     "number": 96,
@@ -131,7 +131,7 @@
         "Sports Cars"
       ]
     },
-    "description": ""
+    "description": "Sports Cars are worth 10VP during scoring."
   },
   {
     "number": 108,
@@ -157,7 +157,7 @@
         "Sports Cars"
       ]
     },
-    "description": ""
+    "description": "Sports Cars are worth 10VP during scoring."
   },
   {
     "number": 75,
@@ -201,7 +201,7 @@
       "processed": [],
       "luxury": []
     },
-    "description": ""
+    "description": "4 VP."
   },
   {
     "number": 44,
@@ -221,7 +221,7 @@
       "processed": [],
       "luxury": []
     },
-    "description": ""
+    "description": "2 VP."
   },
   {
     "number": 142,
@@ -329,7 +329,31 @@
       "processed": [],
       "luxury": []
     },
-    "description": ""
+    "description": "6 VP."
+  },
+  {
+    "number": 122,
+    "name": "Cement Works",
+    "generation": "C",
+    "playerCount": "",
+    "type": "Industrial (Polluting)",
+    "requires": {
+      "raw": [
+        "Stone"
+      ],
+      "processed": [],
+      "luxury": [],
+      "money": 0,
+      "tiles": []
+    },
+    "produces": {
+      "raw": [],
+      "processed": [
+        "Concrete"
+      ],
+      "luxury": []
+    },
+    "description": "Concrete is worth 2VP during scoring."
   },
   {
     "number": 127,
@@ -391,6 +415,26 @@
     },
     "description": "During scoring, this tile scores 3 VP for each set of Residential, Commercial, and Industrial tiles in your City."
   },
+    {
+    "number": 123,
+    "name": "City Park",
+    "generation": "C",
+    "playerCount": "",
+    "type": "Public",
+    "requires": {
+      "raw": [],
+      "processed": [],
+      "luxury": [],
+      "money": 3,
+      "tiles": []
+    },
+    "produces": {
+      "raw": [],
+      "processed": [],
+      "luxury": []
+    },
+    "description": ""
+  },
   {
     "number": 129,
     "name": "Civic Center",
@@ -410,6 +454,26 @@
       "luxury": []
     },
     "description": "During scoring, this tile scores 2 VP for each Public tile in your City."
+  },
+    {
+    "number": 128,
+    "name": "Civic Plaza",
+    "generation": "C",
+    "playerCount": "",
+    "type": "Public",
+    "requires": {
+      "raw": [],
+      "processed": [],
+      "luxury": [],
+      "money": 4,
+      "tiles": []
+    },
+    "produces": {
+      "raw": [],
+      "processed": [],
+      "luxury": []
+    },
+    "description": ""
   },
   {
     "number": 92,
@@ -454,7 +518,7 @@
       "processed": [],
       "luxury": []
     },
-    "description": ""
+    "description": "Coal and Stone are each worth 1VP during scoring."
   },
   {
     "number": 21,
@@ -476,7 +540,7 @@
       "processed": [],
       "luxury": []
     },
-    "description": ""
+    "description": "Coal is worth 1VP during scoring."
   },
   {
     "number": 61,
@@ -499,7 +563,7 @@
       "processed": [],
       "luxury": []
     },
-    "description": ""
+    "description": "Coal and Ore are each worth 1VP during scoring."
   },
   {
     "number": 95,
@@ -539,7 +603,7 @@
       "processed": [],
       "luxury": []
     },
-    "description": ""
+    "description": "1 VP."
   },
   {
     "number": 58,
@@ -561,7 +625,7 @@
       "processed": [],
       "luxury": []
     },
-    "description": ""
+    "description": "This tile generates Power."
   },
   {
     "number": 79,
@@ -583,7 +647,7 @@
       "processed": [],
       "luxury": []
     },
-    "description": ""
+    "description": "This tile generates Power."
   },
   {
     "number": 124,
@@ -669,7 +733,7 @@
       "processed": [],
       "luxury": []
     },
-    "description": ""
+    "description": "3 VP."
   },
   {
     "number": 12,
@@ -693,7 +757,7 @@
       ],
       "luxury": []
     },
-    "description": ""
+    "description": "Concrete is worth 2VP during scoring."
   },
   {
     "number": 66,
@@ -713,7 +777,7 @@
       "processed": [],
       "luxury": []
     },
-    "description": ""
+    "description": "2 VP."
   },
   {
     "number": 86,
@@ -736,7 +800,7 @@
       "processed": [],
       "luxury": []
     },
-    "description": "This tile is both a Residential and a Commercial tile. You get £3 for placing this tile and an income of £3 at the end of each Generation."
+    "description": "3 VP. This tile is both a Residential and a Commercial tile. You get £3 for placing this tile and an income of £3 at the end of each Generation."
   },
   {
     "number": 31,
@@ -780,7 +844,7 @@
       ],
       "luxury": []
     },
-    "description": ""
+    "description": "Copper is worth 2VP during scoring."
   },
   {
     "number": 25,
@@ -800,7 +864,7 @@
       "processed": [],
       "luxury": []
     },
-    "description": ""
+    "description": "1 VP."
   },
   {
     "number": 104,
@@ -842,7 +906,7 @@
       "processed": [],
       "luxury": []
     },
-    "description": ""
+    "description": "Ore and Stone are each worth 1VP during scoring."
   },
   {
     "number": 47,
@@ -930,7 +994,7 @@
         "Electronics"
       ]
     },
-    "description": ""
+    "description": "Electronics is worth 10VP during scoring."
   },
   {
     "number": 110,
@@ -956,7 +1020,7 @@
         "Electronics"
       ]
     },
-    "description": ""
+    "description": "Electronics is worth 10VP during scoring."
   },
   {
     "number": 149,
@@ -1016,7 +1080,7 @@
       "processed": [],
       "luxury": []
     },
-    "description": ""
+    "description": "This tile provides Fire Protection to itself and nearby tiles."
   },
   {
     "number": 38,
@@ -1036,7 +1100,7 @@
       "processed": [],
       "luxury": []
     },
-    "description": ""
+    "description": "This tile provides Fire Protection to itself and nearby tiles."
   },
   {
     "number": 56,
@@ -1056,7 +1120,7 @@
       "processed": [],
       "luxury": []
     },
-    "description": ""
+    "description": "This tile provides Fire Protection to itself and nearby tiles."
   },
   {
     "number": 70,
@@ -1076,7 +1140,7 @@
       "processed": [],
       "luxury": []
     },
-    "description": ""
+    "description": "This tile provides Fire Protection to itself and nearby tiles."
   },
   {
     "number": 24,
@@ -1161,7 +1225,7 @@
       "processed": [],
       "luxury": []
     },
-    "description": ""
+    "description": "This tile generates Power."
   },
   {
     "number": 10,
@@ -1205,7 +1269,7 @@
       "processed": [],
       "luxury": []
     },
-    "description": ""
+    "description": "This tile generates Power."
   },
   {
     "number": 54,
@@ -1229,7 +1293,7 @@
       ],
       "luxury": []
     },
-    "description": ""
+    "description": "Glass is worth 2VP during scoring."
   },
   {
     "number": 13,
@@ -1253,7 +1317,7 @@
       ],
       "luxury": []
     },
-    "description": ""
+    "description": "Gold is worth 2VP during scoring."
   },
   {
     "number": 29,
@@ -1277,7 +1341,7 @@
       ],
       "luxury": []
     },
-    "description": ""
+    "description": "Gold is worth 2VP during scoring."
   },
   {
     "number": 6,
@@ -1317,7 +1381,7 @@
       "processed": [],
       "luxury": []
     },
-    "description": ""
+    "description": "4 VP."
   },
   {
     "number": 105,
@@ -1342,7 +1406,7 @@
       "processed": [],
       "luxury": []
     },
-    "description": ""
+    "description": "10VP."
   },
   {
     "number": 118,
@@ -1364,7 +1428,7 @@
       "processed": [],
       "luxury": []
     },
-    "description": ""
+    "description": "During scoring, this tile scores 2 VP for each nearby Residential tile and 1VP for other Residential tiles in your City."
   },
   {
     "number": 48,
@@ -1384,7 +1448,7 @@
       "processed": [],
       "luxury": []
     },
-    "description": ""
+    "description": "You get £1 for placing this tile and an income of £5 at the end of each Generation."
   },
   {
     "number": 140,
@@ -1404,7 +1468,7 @@
       "processed": [],
       "luxury": []
     },
-    "description": "During scoring, this tile scores 11 VP minus 1 VP for each nearby Residential, Commercial, Industrial and Public tile."
+    "description": "This tile generates Power. During scoring, this tile scores 11 VP minus 1 VP for each nearby Residential, Commercial, Industrial and Public tile."
   },
   {
     "number": 111,
@@ -1484,7 +1548,7 @@
       "processed": [],
       "luxury": ["Jewelry"]
     },
-    "description": ""
+    "description": "Jewelry is worth 10VP during scoring."
   },
   {
     "number": 109,
@@ -1504,7 +1568,7 @@
       "processed": [],
       "luxury": ["Jewelry"]
     },
-    "description": ""
+    "description": "Jewelry is worth 10VP during scoring."
   },
   {
     "number": 89,
@@ -1584,7 +1648,7 @@
       "processed": [],
       "luxury": []
     },
-    "description": "You get an income of £3 at the end of each Generation."
+    "description": "Stone is worth 1VP during scoring."
   },
   {
     "number": 46,
@@ -1624,7 +1688,7 @@
       "processed": [],
       "luxury": []
     },
-    "description": ""
+    "description": "4 VP."
   },
   {
     "number": 73,
@@ -1644,7 +1708,7 @@
       "processed": [],
       "luxury": []
     },
-    "description": ""
+    "description": "3 VP."
   },
   {
     "number": 11,
@@ -1668,7 +1732,7 @@
       ],
       "luxury": []
     },
-    "description": ""
+    "description": "Lumber is worth 2VP during scoring."
   },
   {
     "number": 37,
@@ -1692,7 +1756,7 @@
       ],
       "luxury": []
     },
-    "description": ""
+    "description": "Lumber is worth 2VP during scoring."
   },
   {
     "number": 55,
@@ -1716,6 +1780,29 @@
       ],
       "luxury": []
     },
+    "description": "Lumber is worth 2VP during scoring."
+  },
+  {
+    "number": 136,
+    "name": "Luxury Tower",
+    "generation": "C",
+    "playerCount": "",
+    "type": "Residential",
+    "requires": {
+      "raw": [
+        "Glass",
+        "Steel"
+      ],
+      "processed": [],
+      "luxury": [],
+      "money": 4,
+      "tiles": []
+    },
+    "produces": {
+      "raw": [],
+      "processed": [],
+      "luxury": []
+    },
     "description": ""
   },
   {
@@ -1736,7 +1823,7 @@
       "processed": [],
       "luxury": []
     },
-    "description": ""
+    "description": "5 VP."
   },
   {
     "number": 132,
@@ -1796,7 +1883,7 @@
       "processed": [],
       "luxury": []
     },
-    "description": ""
+    "description": "Ore is worth 1VP during scoring."
   },
   {
     "number": 99,
@@ -1816,7 +1903,7 @@
       "processed": ["Diamonds", "Lumber", "Plastics", "Steel"],
       "luxury": []
     },
-    "description": ""
+    "description": "Diamonds, Lumber, Plastics, and Steel are each worth 2VP during scoring."
   },
   {
     "number": 100,
@@ -1826,17 +1913,17 @@
     "type": "Industrial (Polluting)",
     "requires": {
       "raw": ["Ore", "Stone"],
-      "processed": ["Concrete", "Copper", "Glass", "Gold"],
+      "processed": [],
       "luxury": [],
       "money": 2,
       "tiles": []
     },
     "produces": {
       "raw": [],
-      "processed": ["Diamonds", "Lumber", "Plastics", "Steel"],
+      "processed": ["Concrete", "Copper", "Glass", "Gold"],
       "luxury": []
     },
-    "description": ""
+    "description": "Concrete, Copper, Glass, and Gold are each worth 2VP during scoring."
   },
   {
     "number": 84,
@@ -1856,7 +1943,7 @@
       "processed": [],
       "luxury": []
     },
-    "description": ""
+    "description": "3 VP."
   },
   {
     "number": 137,
@@ -1876,7 +1963,7 @@
       "processed": ["Processed Good of your choice"],
       "luxury": []
     },
-    "description": "This tile provides an income of £2 at the end of each Generation."
+    "description": "This tile provides an income of £2 at the end of each Generation. Processed Goods are worth 2VP during scoring."
   },
   {
     "number": 35,
@@ -1918,7 +2005,7 @@
       "processed": [],
       "luxury": []
     },
-    "description": ""
+    "description": "Natural Gas is worth 1VP during scoring."
   },
     {
     "number": 49,
@@ -1958,7 +2045,7 @@
       "processed": [],
       "luxury": []
     },
-    "description": ""
+    "description": "This tile generates Power."
   },
     {
     "number": 83,
@@ -1978,7 +2065,7 @@
       "processed": [],
       "luxury": []
     },
-    "description": ""
+    "description": "4 VP."
   },
   {
     "number": 63,
@@ -2000,7 +2087,7 @@
       "processed": [],
       "luxury": []
     },
-    "description": ""
+    "description": "Natural Gas and Oil are each worth 1VP during scoring."
   },
   {
     "number": 18,
@@ -2022,7 +2109,7 @@
       "processed": [],
       "luxury": []
     },
-    "description": ""
+    "description": "Oil is worth 1VP during scoring."
   },
   {
     "number": 126,
@@ -2062,7 +2149,7 @@
       "processed": [],
       "luxury": []
     },
-    "description": "During scoring, this tile scores 2 VP for each Road square in your City..."
+    "description": "During scoring, this tile scores 2 VP for each Road square in your City."
   },
   {
     "number": 7,
@@ -2082,7 +2169,7 @@
       "processed": [],
       "luxury": []
     },
-    "description": ""
+    "description": "You get £5 for placing this tile."
   },
   {
     "number": 80,
@@ -2098,13 +2185,13 @@
       "tiles": []
     },
     "produces": {
-      "raw": [
+      "raw": ["Coal",
         "Natural Gas"
       ],
       "processed": [],
       "luxury": []
     },
-    "description": ""
+    "description": "Coal and Natural Gas are each worth 1VP during scoring."
   },
   {
     "number": 135,
@@ -2124,7 +2211,7 @@
       "processed": [],
       "luxury": []
     },
-    "description": "During scoring, this tile scores 6 VP and +1 VP for each nearby Commercial tile..."
+    "description": "During scoring, this tile scores 6 VP and +1 VP for each nearby Commercial tile."
   },
   {
     "number": 36,
@@ -2144,7 +2231,7 @@
       "processed": [],
       "luxury": []
     },
-    "description": ""
+    "description": "You get £3 for placing this tile and an income of £1, £2, £3 at the end of each Generation."
   },
   {
     "number": 52,
@@ -2169,7 +2256,7 @@
       ],
       "luxury": []
     },
-    "description": ""
+    "description": "Plastics are worth 2VP during scoring."
   },
   {
     "number": 77,
@@ -2194,7 +2281,7 @@
       ],
       "luxury": []
     },
-    "description": ""
+    "description": "Plastics are worth 2VP during scoring."
   },
   {
     "number": 107,
@@ -2216,7 +2303,7 @@
       "processed": [],
       "luxury": []
     },
-    "description": ""
+    "description": "You get £4 for placing this tile and an income of £12 at the end of the Generation."
   },
   {
     "number": 57,
@@ -2236,7 +2323,7 @@
       "processed": [],
       "luxury": []
     },
-    "description": ""
+    "description": "This tile provides Police Protection to itself and nearby tiles."
   },
   {
     "number": 71,
@@ -2256,7 +2343,7 @@
       "processed": [],
       "luxury": []
     },
-    "description": ""
+    "description": "This tile provides Police Protection to itself and nearby tiles."
   },
   {
     "number": 102,
@@ -2276,7 +2363,7 @@
       "processed": [],
       "luxury": []
     },
-    "description": ""
+    "description": "This tile provides Police Protection to itself and nearby tiles."
   },
   {
     "number": 119,
@@ -2296,7 +2383,7 @@
       "processed": [],
       "luxury": []
     },
-    "description": ""
+    "description": "This tile provides Police Protection to itself and nearby tiles."
   },
   {
     "number": 59,
@@ -2312,11 +2399,11 @@
       "tiles": []
     },
     "produces": {
-      "raw": [],
+      "raw": ["The Postal Service acts as a virtual Raw Good of any type when fulfilling tile requirements."],
       "processed": [],
       "luxury": []
     },
-    "description": ""
+    "description": "You get an income of £2 at the end of each Generation."
   },
   {
     "number": 45,
@@ -2338,7 +2425,7 @@
       "processed": [],
       "luxury": []
     },
-    "description": ""
+    "description": "2 VP."
   },
   {
     "number": 14,
@@ -2357,12 +2444,10 @@
     },
     "produces": {
       "raw": [],
-      "processed": [
-        "Steel"
-      ],
+      "processed": ["Diamonds"],
       "luxury": []
     },
-    "description": ""
+    "description": "Diamonds are worth 2 VP during scoring."
   },
   {
     "number": 30,
@@ -2382,11 +2467,11 @@
     "produces": {
       "raw": [],
       "processed": [
-        "Steel"
+        "Diamonds"
       ],
       "luxury": []
     },
-    "description": ""
+    "description": "Diamonds are worth 2 VP during scoring."
   },
   {
     "number": 78,
@@ -2406,12 +2491,10 @@
     },
     "produces": {
       "raw": [],
-      "processed": [
-        "Steel"
-      ],
+      "processed": ["Diamonds", "Steel"],
       "luxury": []
     },
-    "description": ""
+    "description": "Diamonds and Steel are each worth 2VP during scoring."
   },
   {
     "number": 130,
@@ -2431,7 +2514,7 @@
       "processed": [],
       "luxury": []
     },
-    "description": "During scoring, this tile scores 2 VP for each Residential tile with printed value 0–2 VP."
+    "description": "During scoring, this tile scores 2 VP for each Residential tile with printed value 0, 1 or 2 VP."
   },
   {
     "number": 139,
@@ -2451,7 +2534,7 @@
       "processed": [],
       "luxury": []
     },
-    "description": "Provides both Fire and Police protection to itself and nearby tiles."
+    "description": "This tile provides both Fire and Police protection to itself and nearby tiles."
   },
   {
     "number": 20,
@@ -2473,7 +2556,7 @@
       "processed": [],
       "luxury": []
     },
-    "description": ""
+    "description": "Wood is worth 1VP during scoring."
   },
   {
     "number": 5,
@@ -2493,6 +2576,30 @@
     "produces": {
       "raw": [],
       "processed": [],
+      "luxury": []
+    },
+    "description": "1 VP."
+  },
+    {
+    "number": 146,
+    "name": "Recycling Center",
+    "generation": "C",
+    "playerCount": "",
+    "type": "Public",
+    "requires": {
+      "raw": [
+        "Plastics"
+      ],
+      "processed": [],
+      "luxury": [],
+      "money": 2,
+      "tiles": []
+    },
+    "produces": {
+      "raw": [],
+      "processed": [
+        "Plastics"
+      ],
       "luxury": []
     },
     "description": ""
@@ -2537,7 +2644,7 @@
       "processed": [],
       "luxury": []
     },
-    "description": ""
+    "description": "You get £3 for placing this tile and an income of £4 at the end of each Generation."
   },
   {
     "number": 93,
@@ -2559,7 +2666,7 @@
       "processed": [],
       "luxury": []
     },
-    "description": ""
+    "description": "You get £5 for placing this tile and an income of £10 at the end of the Generation."
   },
   {
     "number": 33,
@@ -2579,19 +2686,16 @@
       "processed": [],
       "luxury": []
     },
-    "description": ""
+    "description": "1 VP."
   },
-  
   {
-    "number": 122,
-    "name": "Cement Works",
+    "number": 123,
+    "name": "Shopping Centre",
     "generation": "C",
     "playerCount": "",
-    "type": "Industrial (Polluting)",
+    "type": "Commercial",
     "requires": {
-      "raw": [
-        "Stone"
-      ],
+      "raw": [],
       "processed": [],
       "luxury": [],
       "money": 0,
@@ -2599,68 +2703,22 @@
     },
     "produces": {
       "raw": [],
-      "processed": [
-        "Concrete"
-      ],
-      "luxury": []
-    },
-    "description": ""
-  },
-  {
-    "number": 123,
-    "name": "City Park",
-    "generation": "C",
-    "playerCount": "",
-    "type": "Public",
-    "requires": {
-      "raw": [],
-      "processed": [],
-      "luxury": [],
-      "money": 3,
-      "tiles": []
-    },
-    "produces": {
-      "raw": [],
       "processed": [],
       "luxury": []
     },
-    "description": ""
+    "description": "At the end of each Generation, count the number of Commercial tiles in your City and receive income equal to that number."
   },
-  {
-    "number": 128,
-    "name": "Civic Plaza",
-    "generation": "C",
-    "playerCount": "",
-    "type": "Public",
-    "requires": {
-      "raw": [],
-      "processed": [],
-      "luxury": [],
-      "money": 4,
-      "tiles": []
-    },
-    "produces": {
-      "raw": [],
-      "processed": [],
-      "luxury": []
-    },
-    "description": ""
-  },
-  
-  {
-    "number": 136,
-    "name": "Luxury Tower",
-    "generation": "C",
-    "playerCount": "",
+    {
+    "number": 3,
+    "name": "Slums",
+    "generation": "I",
+    "playerCount": "1+",
     "type": "Residential",
     "requires": {
-      "raw": [
-        "Glass",
-        "Steel"
-      ],
+      "raw": [],
       "processed": [],
       "luxury": [],
-      "money": 4,
+      "money": 0,
       "tiles": []
     },
     "produces": {
@@ -2668,9 +2726,29 @@
       "processed": [],
       "luxury": []
     },
-    "description": ""
+    "description": "0 VP."
   },
-  { 
+    {
+    "number": 69,
+    "name": "Smelter",
+    "generation": "II",
+    "playerCount": "4+",
+    "type": "Industrial (Polluting)",
+    "requires": {
+      "raw": ["Ore"],
+      "processed": [],
+      "luxury": [],
+      "money": 0,
+      "tiles": []
+    },
+    "produces": {
+      "raw": [],
+      "processed": ["Copper", "Gold"],
+      "luxury": []
+    },
+    "description": "Copper and Gold are each worth 2VP during scoring."
+  },
+    { 
     "number": 143,
     "name": "Solar Array",
     "generation": "C",
@@ -2682,6 +2760,210 @@
       ],
       "processed": [],
       "luxury": [],
+      "money": 0,
+      "tiles": []
+    },
+    "produces": {
+      "raw": [],
+      "processed": [],
+      "luxury": []
+    },
+    "description": ""
+  },
+      {
+    "number": 112,
+    "name": "Stadium",
+    "generation": "III",
+    "playerCount": "4+",
+    "type": "Public",
+    "requires": {
+      "raw": [],  
+      "processed": [],
+      "luxury": [],
+      "money": 0,
+      "tiles": []
+    },
+    "produces": {
+      "raw": [],
+      "processed": [],
+      "luxury": []
+    },
+    "description": "25 VP."
+  },
+      {
+    "number": 120,
+    "name": "Steam Turbine Plant",
+    "generation": "III",
+    "playerCount": "5+",
+    "type": "Public",
+    "requires": {
+      "raw": ["Coal", "Oil"],
+      "processed": [],
+      "luxury": [],
+      "money": 0,
+      "tiles": []
+    },
+    "produces": {
+      "raw": [],
+      "processed": [],
+      "luxury": []
+    },
+    "description": "This tile generates Power."
+  },
+      {
+    "number": 51,
+    "name": "Steel Foundry",
+    "generation": "II",
+    "playerCount": "1+",
+    "type": "Industrial (Polluting)",
+    "requires": {
+      "raw": [
+        "Coal", "Ore"
+      ],
+      "processed": [],
+      "luxury": [],
+      "money": 0,
+      "tiles": []
+    },
+    "produces": {
+      "raw": [],
+      "processed": [
+        "Steel"
+      ],
+      "luxury": []
+    },
+    "description": "Steel is worth 2VP during scoring."
+  },
+      {
+    "number": 94,
+    "name": "Stock Exchange",
+    "generation": "III",
+    "playerCount": "1+",
+    "type": "Commercial",
+    "requires": {
+      "raw": [],
+      "processed": [],
+      "luxury": [],
+      "money": 0,
+      "tiles": ["3+ Commercial tiles"]
+    },
+    "produces": {
+      "raw": [],
+      "processed": [],
+      "luxury": []
+    },
+    "description": "You get £6 for placing this tile and an income of £9 at the end of the Generation."
+  },
+      {
+    "number": 68,
+    "name": "Stone Crusher",
+    "generation": "II",
+    "playerCount": "4+",
+    "type": "Industrial (Polluting)",
+    "requires": {
+      "raw": ["Stone"],
+      "processed": [],
+      "luxury": [],
+      "money": 0,
+      "tiles": []
+    },
+    "produces": {
+      "raw": [],
+      "processed": ["Concrete", "Glass"],
+      "luxury": []
+    },
+    "description": "Concrete and Glass are each worth 2VP during scoring."
+  },
+      {
+    "number": 42,
+    "name": "Suburbs",
+    "generation": "II",
+    "playerCount": "1+",
+    "type": "Residential",
+    "requires": {
+      "raw": [],
+      "processed": [],
+      "luxury": [],
+      "money": 1,
+      "tiles": []
+    },
+    "produces": {
+      "raw": [],
+      "processed": [],
+      "luxury": []
+    },
+    "description": "3 VP."
+  },
+  {
+    "number": 39,
+    "name": "Swamp",
+    "generation": "I",
+    "playerCount": "5+",
+    "type": "Resource",
+    "requires": {
+      "raw": [],
+      "processed": [],
+      "luxury": [],
+      "money": 0,
+      "tiles": []
+    },
+    "produces": {
+      "raw": ["Natural Gas", "Wood"],
+      "processed": [],
+      "luxury": []
+    },
+    "description": "Natural Gas and Wood are each worth 1VP during scoring."
+  },
+    {
+    "number": 27,
+    "name": "Tavern",
+    "generation": "I",
+    "playerCount": "4+",
+    "type": "Commercial",
+    "requires": {
+      "raw": [],
+      "processed": [],
+      "luxury": [],
+      "money": 0,
+      "tiles": []
+    },
+    "produces": {
+      "raw": [],
+      "processed": [],
+      "luxury": []
+    },
+    "description": "You get £2 for placing this tile and an income of £2 at the end of each Generation."
+  },
+    {
+    "number": 1,
+    "name": "Tenements",
+    "generation": "I",
+    "playerCount": "1+",
+    "type": "Residential",
+    "requires": {
+      "raw": [],
+      "processed": [],
+      "luxury": [],
+      "money": 1,
+      "tiles": []
+    },
+    "produces": {
+      "raw": [],
+      "processed": [],
+      "luxury": []
+    },
+    "description": "1 VP."
+  },
+    {
+    "number": 26,
+    "name": "Tiny Houses",
+    "generation": "I",
+    "playerCount": "4+",
+    "type": "Residential",
+    "requires": {
+      "raw": [],
+      "processed": [],
+      "luxury": [],
       "money": 3,
       "tiles": []
     },
@@ -2690,18 +2972,56 @@
       "processed": [],
       "luxury": []
     },
-    "description": ""
+    "description": "3 VP."
   },
-  {
-    "number": 146,
-    "name": "Recycling Center",
+    {
+    "number": 136,
+    "name": "Tour Operator",
     "generation": "C",
     "playerCount": "",
-    "type": "Public",
+    "type": "Commercial",
     "requires": {
-      "raw": [
-        "Plastics"
-      ],
+      "raw": [],
+      "processed": [],
+      "luxury": [],
+      "money": 0,
+      "tiles": []
+    },
+    "produces": {
+      "raw": [],
+      "processed": [],
+      "luxury": []
+    },
+    "description": "You get £2 for placing this tile. At the end of each Generation count the Resource tiles in your City, receive an income equal to that number."
+  },
+    {
+    "number": 150,
+    "name": "Tourism Board",
+    "generation": "C",
+    "playerCount": "",
+    "type": "Public (Power)",
+    "requires": {
+      "raw": [],
+      "processed": [],
+      "luxury": [],
+      "money": 0,
+      "tiles": []
+    },
+    "produces": {
+      "raw": [],
+      "processed": [],
+      "luxury": []
+    },
+    "description": "Whenever you place a tile in your City, you get £2 for each Commercial tile that the newly placed tile is connected to."
+  },
+    {
+    "number": 4,
+    "name": "Townhouses",
+    "generation": "I",
+    "playerCount": "1+",
+    "type": "Residential",
+    "requires": {
+      "raw": [],
       "processed": [],
       "luxury": [],
       "money": 2,
@@ -2709,15 +3029,253 @@
     },
     "produces": {
       "raw": [],
-      "processed": [
-        "Plastics"
-      ],
+      "processed": [],
       "luxury": []
     },
-    "description": ""
+    "description": "2 VP."
+  },
+    {
+    "number": 106,
+    "name": "Toy Store",
+    "generation": "III",
+    "playerCount": "4+",
+    "type": "",
+    "requires": {
+      "raw": [],
+      "processed": ["Plastics"],
+      "luxury": [],
+      "money": 0,
+      "tiles": []
+    },
+    "produces": {
+      "raw": [],
+      "processed": [],
+      "luxury": []
+    },
+    "description": "You get £2 for placing this tile and an income of £15 at the end of the Generation."
+  },
+    {
+    "number": 34,
+    "name": "Tract Housing",
+    "generation": "I",
+    "playerCount": "5+",
+    "type": "Residential",
+    "requires": {
+      "raw": [],
+      "processed": [],
+      "luxury": [],
+      "money": 1,
+      "tiles": []
+    },
+    "produces": {
+      "raw": [],
+      "processed": [],
+      "luxury": []
+    },
+    "description": "2 VP."
+  },
+    {
+    "number": 146,
+    "name": "Trade Office",
+    "generation": "C",
+    "playerCount": "",
+    "type": "",
+    "requires": {
+      "raw": [],
+      "processed": [],
+      "luxury": [],
+      "money": 0,
+      "tiles": []
+    },
+    "produces": {
+      "raw": [],
+      "processed": [],
+      "luxury": []
+    },
+    "description": "When placing this tile, you get £2 for each pair of orthogonally adjacent Commercial and Industrial tiles."
+  },
+    {
+    "number": 122,
+    "name": "Trading Post",
+    "generation": "C",
+    "playerCount": "",
+    "type": "Commercial",
+    "requires": {
+      "raw": [],
+      "processed": [],
+      "luxury": [],
+      "money": 0,
+      "tiles": []
+    },
+    "produces": {
+      "raw": [],
+      "processed": [],
+      "luxury": []
+    },
+    "description": "You get £4 for placing this tile. At the end of each Generation, count the Industrial tiles in your city and receive income equal to that number."
+  },
+    {
+    "number": 60,
+    "name": "Treasury",
+    "generation": "II",
+    "playerCount": "1+",
+    "type": "Public",
+    "requires": {
+      "raw": [],
+      "processed": ["Steel"],
+      "luxury": [],
+      "money": 5,
+      "tiles": []
+    },
+    "produces": {
+      "raw": [],
+      "processed": [],
+      "luxury": []
+    },
+    "description": "During scoring, this tile scores 1VP for every £5 in you personal supply."
+  },
+    {
+    "number": 65,
+    "name": "Triplexes",
+    "generation": "II",
+    "playerCount": "4+",
+    "type": "Residential",
+    "requires": {
+      "raw": [],
+      "processed": [],
+      "luxury": [],
+      "money": 3,
+      "tiles": []
+    },
+    "produces": {
+      "raw": [],
+      "processed": [],
+      "luxury": []
+    },
+    "description": "3 VP."
+  },
+    {
+    "number": 28,
+    "name": "Truck Stop",
+    "generation": "I",
+    "playerCount": "4+",
+    "type": "Commercial",
+    "requires": {
+      "raw": [],
+      "processed": [],
+      "luxury": [],
+      "money": 0,
+      "tiles": []
+    },
+    "produces": {
+      "raw": [],
+      "processed": [],
+      "luxury": []
+    },
+    "description": "You get £1 for placing this tile and an income of £3 at the end of each Generation."
+  },
+    {
+    "number": 128,
+    "name": "University",
+    "generation": "C",
+    "playerCount": "",
+    "type": "",
+    "requires": {
+      "raw": [],
+      "processed": [],
+      "luxury": [],
+      "money": 0,
+      "tiles": []
+    },
+    "produces": {
+      "raw": [],
+      "processed": [],
+      "luxury": []
+    },
+    "description": "During scoring, this tile provides 1VP for each Residential and Industrial tile in your City."
+  },
+    {
+    "number": 81,
+    "name": "Victorian Housing",
+    "generation": "III",
+    "playerCount": "1+",
+    "type": "Residential",
+    "requires": {
+      "raw": [],
+      "processed": ["Lumber"],
+      "luxury": [],
+      "money": 0,
+      "tiles": []
+    },
+    "produces": {
+      "raw": [],
+      "processed": [],
+      "luxury": []
+    },
+    "description": "4 VP."
+  },
+    {
+    "number": 103,
+    "name": "Warehouse",
+    "generation": "III",
+    "playerCount": "1+",
+    "type": "Public",
+    "requires": {
+      "raw": [],
+      "processed": ["Concrete"],
+      "luxury": [],
+      "money": 0,
+      "tiles": []
+    },
+    "produces": {
+      "raw": [],
+      "processed": [],
+      "luxury": []
+    },
+    "description": "During scoring, this tile scores 1VP for each Good token above your City board."
+  },
+    {
+    "number": 91,
+    "name": "Watch Store",
+    "generation": "III",
+    "playerCount": "1+",
+    "type": "Commercial",
+    "requires": {
+      "raw": [],
+      "processed": ["Gold"],
+      "luxury": [],
+      "money": 0,
+      "tiles": []
+    },
+    "produces": {
+      "raw": [],
+      "processed": [],
+      "luxury": []
+    },
+    "description": "You get £12 for placing this tile and an income of £2 at the end of the Generation."
+  },
+    {
+    "number": 32,
+    "name": "Windmills",
+    "generation": "I",
+    "playerCount": "4+",
+    "type": "Resource",
+    "requires": {
+      "raw": [],
+      "processed": [],
+      "luxury": [],
+      "money": 0,
+      "tiles": []
+    },
+    "produces": {
+      "raw": [],
+      "processed": [],
+      "luxury": []
+    },
+    "description": "This tile generates Power."
   },
   {
-    "number": 150,
+    "number": 143,
     "name": "Zoning Authority",
     "generation": "C",
     "playerCount": "",
@@ -2734,6 +3292,6 @@
       "processed": [],
       "luxury": []
     },
-    "description": "Scores ½ VP per tile with an orthogonally adjacent tile of the same type (rounded down)."
+    "description": "During scoring, this tile scores ½ VP per tile with an orthogonally adjacent tile of the same type (rounded down)."
   }
 ]
