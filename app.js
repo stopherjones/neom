@@ -59,7 +59,7 @@ function renderTiles(tiles) {
     div.className = `tile ${tile.type.split(' & ')[0].toLowerCase()}`;
 
     div.innerHTML = `
-      <h2>${tile.name}</h2>
+      <h2>${tile.name}${tile.playerCount && tile.playerCount !== '1+' ? ` <span class="player-count">${tile.playerCount}</span>` : ''}</h2>
       <div class="meta">
         Gen ${tile.generation} • ${tile.type}
       </div>
@@ -87,6 +87,7 @@ function applyFilters() {
   const type = document.getElementById("filter-type").value;
   const gen = document.getElementById("filter-generation").value;
   const resourceChain = document.getElementById("filter-resource-chain").value;
+  const playerCount = document.getElementById("filter-player-count").value;
   const sortOption = document.getElementById("sort-options").value;
 
   let filtered = allTiles.filter(tile => {
@@ -94,6 +95,7 @@ function applyFilters() {
     if (type && !tile.type.includes(type)) return false;
     if (gen && tile.generation !== gen) return false;
     if (resourceChain && !isInResourceChain(tile, resourceChain)) return false;
+    if (playerCount && !matchesPlayerCount(tile.playerCount, playerCount)) return false;
     return true;
   });
 
@@ -142,6 +144,22 @@ function sortTiles(tiles, sortOption) {
         const bGenOrder = genOrder[b.generation] || 99;
         return aGenOrder - bGenOrder;
       });
+  }
+}
+
+function matchesPlayerCount(tilePlayerCount, selectedPlayerCount) {
+  // Empty playerCount means available for all player counts
+  if (!tilePlayerCount) return true;
+  
+  switch (selectedPlayerCount) {
+    case '1+':
+      return tilePlayerCount === '1+' || tilePlayerCount === '';
+    case '4+':
+      return tilePlayerCount === '1+' || tilePlayerCount === '' || tilePlayerCount === '4+';
+    case '5+':
+      return true; // Show all tiles for 5+ players
+    default:
+      return true;
   }
 }
 
@@ -194,6 +212,7 @@ document.getElementById("search").addEventListener("input", applyFilters);
 document.getElementById("filter-type").addEventListener("change", applyFilters);
 document.getElementById("filter-generation").addEventListener("change", applyFilters);
 document.getElementById("filter-resource-chain").addEventListener("change", applyFilters);
+document.getElementById("filter-player-count").addEventListener("change", applyFilters);
 document.getElementById("sort-options").addEventListener("change", applyFilters);
 
 if (document.readyState === "loading") {
