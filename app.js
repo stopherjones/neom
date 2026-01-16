@@ -215,6 +215,12 @@ document.getElementById("filter-resource-chain").addEventListener("change", appl
 document.getElementById("filter-player-count").addEventListener("change", applyFilters);
 document.getElementById("sort-options").addEventListener("change", applyFilters);
 
+// Aide panel toggle functionality
+document.getElementById("aide-toggle").addEventListener("click", function() {
+  const panel = document.getElementById("aide-panel");
+  panel.classList.toggle("active");
+});
+
 if (document.readyState === "loading") {
   document.addEventListener("DOMContentLoaded", loadTiles);
 } else {
